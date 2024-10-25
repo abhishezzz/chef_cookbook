@@ -1,0 +1,4852 @@
+{
+  "name": "abhishek.sharma1",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "audit": {
+      "inspec_backend_cache": true,
+      "reporter": null,
+      "fetcher": null,
+      "insecure": null,
+      "quiet": true,
+      "profiles": {
+
+      },
+      "inputs": {
+
+      },
+      "attributes": {
+
+      },
+      "waiver_file": null,
+      "json_file": {
+        "location": "/var/chef/compliance_reports/compliance-20241025082053.json"
+      },
+      "run_time_limit": 1.0,
+      "result_message_limit": 10000,
+      "result_include_backtrace": false,
+      "control_results_limit": 50,
+      "chef_node_attribute_enabled": true,
+      "compliance_phase": false,
+      "interval": {
+        "enabled": false,
+        "time": 1440
+      }
+    }
+  },
+  "automatic": {
+    "kernel": {
+      "name": "Darwin",
+      "release": "23.5.0",
+      "version": "Darwin Kernel Version 23.5.0: Wed May  1 20:09:52 PDT 2024; root:xnu-10063.121.3~5/RELEASE_X86_64",
+      "machine": "x86_64",
+      "processor": "i386",
+      "os": "Darwin",
+      "modules": {
+        "com.apple.kec.corecrypto": {
+          "version": "14.0",
+          "size": 511952,
+          "index": "10",
+          "refcount": "15"
+        },
+        "com.apple.kec.AppleEncryptedArchive": {
+          "version": "1",
+          "size": 12288,
+          "index": "11",
+          "refcount": "0"
+        },
+        "com.apple.kec.Compression": {
+          "version": "1.0",
+          "size": 16384,
+          "index": "12",
+          "refcount": "0"
+        },
+        "com.apple.kec.Libm": {
+          "version": "1",
+          "size": 57312,
+          "index": "13",
+          "refcount": "2"
+        },
+        "com.apple.kec.XrtHostedXnu": {
+          "version": "1",
+          "size": 12288,
+          "index": "14",
+          "refcount": "0"
+        },
+        "com.apple.kec.pthread": {
+          "version": "1",
+          "size": 28672,
+          "index": "15",
+          "refcount": "0"
+        },
+        "com.apple.driver.watchdog": {
+          "version": "1",
+          "size": 12287,
+          "index": "16",
+          "refcount": "1"
+        },
+        "com.apple.iokit.IOACPIFamily": {
+          "version": "1.4",
+          "size": 8192,
+          "index": "17",
+          "refcount": "34"
+        },
+        "com.apple.iokit.IOPCIFamily": {
+          "version": "2.9",
+          "size": 204800,
+          "index": "18",
+          "refcount": "44"
+        },
+        "com.apple.driver.AppleSMC": {
+          "version": "3.1.9",
+          "size": 114686,
+          "index": "19",
+          "refcount": "13"
+        },
+        "com.apple.driver.AppleACPIPlatform": {
+          "version": "6.1",
+          "size": 491505,
+          "index": "20",
+          "refcount": "2"
+        },
+        "com.apple.driver.IOSlaveProcessor": {
+          "version": "1",
+          "size": 8191,
+          "index": "21",
+          "refcount": "6"
+        },
+        "com.apple.driver.AppleSEPManager": {
+          "version": "1.0.1",
+          "size": 61436,
+          "index": "22",
+          "refcount": "4"
+        },
+        "com.apple.iokit.CoreAnalyticsFamily": {
+          "version": "1",
+          "size": 40951,
+          "index": "23",
+          "refcount": "8"
+        },
+        "com.apple.driver.AppleCredentialManager": {
+          "version": "1.0",
+          "size": 499708,
+          "index": "24",
+          "refcount": "2"
+        },
+        "com.apple.kext.CoreTrust": {
+          "version": "1",
+          "size": 40954,
+          "index": "25",
+          "refcount": "4"
+        },
+        "com.apple.security.AppleImage4": {
+          "version": "6.3.0",
+          "size": 139253,
+          "index": "26",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleMobileFileIntegrity": {
+          "version": "1.0.5",
+          "size": 229361,
+          "index": "27",
+          "refcount": "11"
+        },
+        "com.apple.driver.AppleCyrus": {
+          "version": "1",
+          "size": 12280,
+          "index": "28",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOStorageFamily": {
+          "version": "2.1",
+          "size": 94208,
+          "index": "29",
+          "refcount": "10"
+        },
+        "com.apple.driver.AppleDiskImages2": {
+          "version": "276.120.5",
+          "size": 61429,
+          "index": "30",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleEffaceableStorage": {
+          "version": "1.0",
+          "size": 24576,
+          "index": "31",
+          "refcount": "3"
+        },
+        "com.apple.driver.AppleFDEKeyStore": {
+          "version": "28.30",
+          "size": 24576,
+          "index": "32",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOSCSIArchitectureModelFamily": {
+          "version": "495",
+          "size": 86015,
+          "index": "33",
+          "refcount": "3"
+        },
+        "com.apple.iokit.IOSCSIBlockCommandsDevice": {
+          "version": "495",
+          "size": 69629,
+          "index": "34",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleBusPowerController": {
+          "version": "1.0",
+          "size": 16384,
+          "index": "35",
+          "refcount": "1"
+        },
+        "com.apple.driver.usb.AppleUSBCommon": {
+          "version": "1.0",
+          "size": 16380,
+          "index": "36",
+          "refcount": "12"
+        },
+        "com.apple.driver.AppleUSBHostMergeProperties": {
+          "version": "1.2",
+          "size": 4095,
+          "index": "37",
+          "refcount": "2"
+        },
+        "com.apple.iokit.IOUSBHostFamily": {
+          "version": "1.2",
+          "size": 499700,
+          "index": "38",
+          "refcount": "19"
+        },
+        "com.apple.iokit.IOUSBMassStorageDriver": {
+          "version": "245",
+          "size": 122880,
+          "index": "39",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleUSBTDM": {
+          "version": "556",
+          "size": 32765,
+          "index": "40",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleKeyStore": {
+          "version": "2",
+          "size": 610302,
+          "index": "41",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleLockdownMode": {
+          "version": "1",
+          "size": 98300,
+          "index": "42",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleSSE": {
+          "version": "1.0",
+          "size": 32768,
+          "index": "43",
+          "refcount": "0"
+        },
+        "com.apple.security.sandbox": {
+          "version": "300.0",
+          "size": 389108,
+          "index": "46",
+          "refcount": "3"
+        },
+        "com.apple.security.quarantine": {
+          "version": "4",
+          "size": 40945,
+          "index": "47",
+          "refcount": "2"
+        },
+        "com.apple.iokit.EndpointSecurity": {
+          "version": "1",
+          "size": 593914,
+          "index": "48",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOReportFamily": {
+          "version": "47",
+          "size": 12280,
+          "index": "49",
+          "refcount": "10"
+        },
+        "com.apple.iokit.IOBluetoothFamily": {
+          "version": "9.0.0",
+          "size": 225280,
+          "index": "50",
+          "refcount": "2"
+        },
+        "com.apple.driver.DiskImages": {
+          "version": "493.0.0",
+          "size": 49152,
+          "index": "51",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOKitRegistryCompatibility": {
+          "version": "1",
+          "size": 4095,
+          "index": "52",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IONetworkingFamily": {
+          "version": "3.4",
+          "size": 98292,
+          "index": "53",
+          "refcount": "13"
+        },
+        "com.apple.iokit.IOSkywalkFamily": {
+          "version": "1.0",
+          "size": 188408,
+          "index": "55",
+          "refcount": "7"
+        },
+        "com.apple.iokit.IOTimeSyncFamily": {
+          "version": "1250.2",
+          "size": 200704,
+          "index": "56",
+          "refcount": "3"
+        },
+        "com.apple.nke.applicationfirewall": {
+          "version": "405",
+          "size": 32756,
+          "index": "57",
+          "refcount": "0"
+        },
+        "com.apple.AppleSystemPolicy": {
+          "version": "2.0.0",
+          "size": 61439,
+          "index": "58",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleAPIC": {
+          "version": "1.7",
+          "size": 8192,
+          "index": "59",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOHIDFamily": {
+          "version": "2.0.0",
+          "size": 409600,
+          "index": "60",
+          "refcount": "12"
+        },
+        "com.apple.iokit.IOSMBusFamily": {
+          "version": "1.1",
+          "size": 4094,
+          "index": "61",
+          "refcount": "3"
+        },
+        "com.apple.driver.AppleACPIEC": {
+          "version": "6.1",
+          "size": 24576,
+          "index": "62",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleSMBIOS": {
+          "version": "2.1",
+          "size": 12286,
+          "index": "63",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleSMCRTC": {
+          "version": "1.0",
+          "size": 16372,
+          "index": "64",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleACPIButtons": {
+          "version": "6.1",
+          "size": 12282,
+          "index": "65",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleEFIRuntime": {
+          "version": "2.1",
+          "size": 8192,
+          "index": "66",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleSmartBatteryManager": {
+          "version": "161.0.0",
+          "size": 118772,
+          "index": "67",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleEFINVRAM": {
+          "version": "2.1",
+          "size": 45056,
+          "index": "68",
+          "refcount": "1"
+        },
+        "com.apple.driver.usb.AppleUSBXHCI": {
+          "version": "1.2",
+          "size": 262140,
+          "index": "69",
+          "refcount": "1"
+        },
+        "com.apple.driver.usb.AppleUSBXHCIPCI": {
+          "version": "1.2",
+          "size": 151541,
+          "index": "70",
+          "refcount": "0"
+        },
+        "com.apple.private.KextAudit": {
+          "version": "1.0",
+          "size": 4096,
+          "index": "71",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOUSBFamily": {
+          "version": "900.4.2",
+          "size": 409589,
+          "index": "72",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.AppleUSBHostPacketFilter": {
+          "version": "1.0",
+          "size": 12277,
+          "index": "73",
+          "refcount": "0"
+        },
+        "com.apple.driver.corecapture": {
+          "version": "1.0.4",
+          "size": 143349,
+          "index": "74",
+          "refcount": "11"
+        },
+        "com.apple.iokit.IOSerialFamily": {
+          "version": "11",
+          "size": 28672,
+          "index": "75",
+          "refcount": "6"
+        },
+        "com.apple.driver.AppleOLYHALMac": {
+          "version": "1",
+          "size": 73728,
+          "index": "76",
+          "refcount": "2"
+        },
+        "com.apple.driver.IOImageLoader": {
+          "version": "1.0.0",
+          "size": 73728,
+          "index": "77",
+          "refcount": "8"
+        },
+        "com.apple.iokit.IO80211Family": {
+          "version": "1200.13.0",
+          "size": 2387961,
+          "index": "78",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleBCMWLANCoreMac": {
+          "version": "1.0.0",
+          "size": 2473974,
+          "index": "79",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleBCMWLANBusInterfacePCIeMac": {
+          "version": "1",
+          "size": 438269,
+          "index": "80",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOBufferCopyEngineFamily": {
+          "version": "1",
+          "size": 28672,
+          "index": "81",
+          "refcount": "6"
+        },
+        "com.apple.iokit.IOBufferCopyController": {
+          "version": "1.1.0",
+          "size": 12288,
+          "index": "82",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IONVMeFamily": {
+          "version": "2.1.0",
+          "size": 176128,
+          "index": "83",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleEffaceableNOR": {
+          "version": "1.0",
+          "size": 20480,
+          "index": "84",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.AppleUSBVHCICommon": {
+          "version": "1.0",
+          "size": 20467,
+          "index": "85",
+          "refcount": "3"
+        },
+        "com.apple.driver.usb.AppleUSBVHCI": {
+          "version": "1.2",
+          "size": 90108,
+          "index": "86",
+          "refcount": "1"
+        },
+        "com.apple.driver.usb.AppleUSBVHCICommonBCE": {
+          "version": "1.0",
+          "size": 32756,
+          "index": "87",
+          "refcount": "1"
+        },
+        "com.apple.driver.usb.AppleUSBVHCIBCE": {
+          "version": "1.2",
+          "size": 8188,
+          "index": "88",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOThunderboltFamily": {
+          "version": "9.3.3",
+          "size": 1048576,
+          "index": "89",
+          "refcount": "7"
+        },
+        "com.apple.driver.AppleThunderboltNHI": {
+          "version": "7.2.81",
+          "size": 200704,
+          "index": "90",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleXsanScheme": {
+          "version": "3",
+          "size": 12288,
+          "index": "91",
+          "refcount": "0"
+        },
+        "com.apple.filesystems.apfs": {
+          "version": "2236.120.10",
+          "size": 1789936,
+          "index": "92",
+          "refcount": "1"
+        },
+        "com.apple.AppleFSCompression.AppleFSCompressionTypeZlib": {
+          "version": "1.0.0",
+          "size": 73681,
+          "index": "94",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleSyntheticGameController": {
+          "version": "11.5.1",
+          "size": 20473,
+          "index": "95",
+          "refcount": "0"
+        },
+        "com.apple.BootCache": {
+          "version": "40",
+          "size": 53236,
+          "index": "96",
+          "refcount": "0"
+        },
+        "com.apple.filesystems.hfs.encodings.kext": {
+          "version": "1",
+          "size": 8185,
+          "index": "97",
+          "refcount": "1"
+        },
+        "com.apple.filesystems.hfs.kext": {
+          "version": "650.120.1",
+          "size": 385013,
+          "index": "98",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOSurface": {
+          "version": "352.50.1",
+          "size": 159732,
+          "index": "99",
+          "refcount": "3"
+        },
+        "com.apple.filesystems.lifs": {
+          "version": "1",
+          "size": 122876,
+          "index": "100",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleBSDKextStarter": {
+          "version": "3",
+          "size": 4096,
+          "index": "101",
+          "refcount": "0"
+        },
+        "com.apple.filesystems.tmpfs": {
+          "version": "1",
+          "size": 45056,
+          "index": "102",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleFileSystemDriver": {
+          "version": "3.0.1",
+          "size": 8192,
+          "index": "103",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4355.Hashstore": {
+          "version": "1",
+          "size": 8189,
+          "index": "104",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4364.Hashstore": {
+          "version": "1",
+          "size": 28671,
+          "index": "105",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4377.Hashstore": {
+          "version": "1",
+          "size": 16383,
+          "index": "106",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4378.Hashstore": {
+          "version": "1",
+          "size": 20477,
+          "index": "107",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4387.Hashstore": {
+          "version": "1",
+          "size": 28671,
+          "index": "108",
+          "refcount": "0"
+        },
+        "com.apple.driver.BCMWLANFirmware4388.Hashstore": {
+          "version": "1",
+          "size": 73727,
+          "index": "109",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleIntelLpssDmac": {
+          "version": "3.0.60",
+          "size": 20480,
+          "index": "110",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleIntelLpssI2C": {
+          "version": "3.0.60",
+          "size": 28660,
+          "index": "111",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleIntelLpssI2CController": {
+          "version": "3.0.60",
+          "size": 57340,
+          "index": "112",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleHPM": {
+          "version": "3.4.4",
+          "size": 32756,
+          "index": "113",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleThunderboltPCIDownAdapter": {
+          "version": "4.1.1",
+          "size": 16383,
+          "index": "114",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleThunderboltDPAdapterFamily": {
+          "version": "8.5.1",
+          "size": 208893,
+          "index": "115",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleThunderboltDPInAdapter": {
+          "version": "8.5.1",
+          "size": 86014,
+          "index": "116",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.AppleUSBHostCompositeDevice": {
+          "version": "1.2",
+          "size": 16379,
+          "index": "117",
+          "refcount": "2"
+        },
+        "com.apple.driver.usb.networking": {
+          "version": "5.0.0",
+          "size": 8192,
+          "index": "118",
+          "refcount": "3"
+        },
+        "com.apple.driver.usb.cdc": {
+          "version": "5.0.0",
+          "size": 8191,
+          "index": "119",
+          "refcount": "2"
+        },
+        "com.apple.driver.usb.cdc.ncm": {
+          "version": "5.0.0",
+          "size": 28672,
+          "index": "120",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.cdc.ecm": {
+          "version": "5.0.0",
+          "size": 12280,
+          "index": "121",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.IOUSBHostHIDDevice": {
+          "version": "1.2",
+          "size": 32766,
+          "index": "122",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOSlowAdaptiveClockingFamily": {
+          "version": "1.0.0",
+          "size": 12277,
+          "index": "123",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleIntelSlowAdaptiveClocking": {
+          "version": "4.0.0",
+          "size": 4095,
+          "index": "124",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOGraphicsFamily": {
+          "version": "598",
+          "size": 192506,
+          "index": "125",
+          "refcount": "18"
+        },
+        "com.apple.AppleGraphicsDeviceControl": {
+          "version": "8.1.9",
+          "size": 16384,
+          "index": "126",
+          "refcount": "9"
+        },
+        "com.apple.AppleGPUWrangler": {
+          "version": "8.1.9",
+          "size": 28660,
+          "index": "127",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOAcceleratorFamily2": {
+          "version": "481.40.2",
+          "size": 438268,
+          "index": "128",
+          "refcount": "3"
+        },
+        "com.apple.driver.AppleIntelCFLGraphicsFramebuffer": {
+          "version": "22.0.5",
+          "size": 684018,
+          "index": "129",
+          "refcount": "0"
+        },
+        "com.apple.plugin.IOgPTPPlugin": {
+          "version": "1250.2",
+          "size": 512000,
+          "index": "130",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleAVEBridge": {
+          "version": "6.1",
+          "size": 12288,
+          "index": "131",
+          "refcount": "0"
+        },
+        "com.apple.driver.BridgeAudioCommunication": {
+          "version": "440.1",
+          "size": 40956,
+          "index": "132",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleMCCSControl": {
+          "version": "1.17",
+          "size": 45056,
+          "index": "134",
+          "refcount": "0"
+        },
+        "com.apple.driver.driverkit.serial": {
+          "version": "6.0.0",
+          "size": 24576,
+          "index": "135",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleIntelPCHPMC": {
+          "version": "2.0.1",
+          "size": 12288,
+          "index": "138",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IONDRVSupport": {
+          "version": "598",
+          "size": 36860,
+          "index": "140",
+          "refcount": "3"
+        },
+        "com.apple.driver.AppleBacklightExpert": {
+          "version": "1.1.0",
+          "size": 8192,
+          "index": "142",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleThunderboltDPOutAdapter": {
+          "version": "8.5.1",
+          "size": 344064,
+          "index": "144",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleThunderboltIP": {
+          "version": "4.0.3",
+          "size": 253952,
+          "index": "146",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDSupport": {
+          "version": "5.0.5",
+          "size": 864256,
+          "index": "149",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDRadeonX6000Framebuffer": {
+          "version": "5.0.5",
+          "size": 2662392,
+          "index": "150",
+          "refcount": "0"
+        },
+        "com.apple.driver.X86PlatformPlugin": {
+          "version": "1.0.0",
+          "size": 77818,
+          "index": "151",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleGraphicsControl": {
+          "version": "8.1.9",
+          "size": 4095,
+          "index": "154",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleMuxControl2": {
+          "version": "8.1.9",
+          "size": 77818,
+          "index": "155",
+          "refcount": "0"
+        },
+        "com.apple.driver.AGDCBacklightControl": {
+          "version": "8.1.9",
+          "size": 12288,
+          "index": "156",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleHV": {
+          "version": "1",
+          "size": 81908,
+          "index": "157",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleIPAppender": {
+          "version": "1.0",
+          "size": 20480,
+          "index": "158",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IORSMFamily": {
+          "version": "1",
+          "size": 16384,
+          "index": "159",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleRSMChannel": {
+          "version": "1",
+          "size": 20476,
+          "index": "160",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleSunrise": {
+          "version": "1",
+          "size": 16372,
+          "index": "161",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleUIO": {
+          "version": "1",
+          "size": 12288,
+          "index": "162",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOAVBFamily": {
+          "version": "1220.1",
+          "size": 81913,
+          "index": "163",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleIntelKBLGraphics": {
+          "version": "22.0.5",
+          "size": 901113,
+          "index": "164",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleCallbackPowerSource": {
+          "version": "1",
+          "size": 24570,
+          "index": "165",
+          "refcount": "1"
+        },
+        "com.apple.driver.IOHIDPowerSource": {
+          "version": "1",
+          "size": 28663,
+          "index": "166",
+          "refcount": "0"
+        },
+        "com.apple.driver.usb.AppleUSBUserHCI": {
+          "version": "1",
+          "size": 86004,
+          "index": "167",
+          "refcount": "0"
+        },
+        "com.apple.iokit.IOUserEthernet": {
+          "version": "1.0.1",
+          "size": 20479,
+          "index": "168",
+          "refcount": "0"
+        },
+        "com.apple.kext.triggers": {
+          "version": "1.0",
+          "size": 12288,
+          "index": "169",
+          "refcount": "2"
+        },
+        "com.apple.filesystems.nfs": {
+          "version": "1",
+          "size": 675840,
+          "index": "170",
+          "refcount": "0"
+        },
+        "com.apple.driver.pmtelemetry": {
+          "version": "1",
+          "size": 36864,
+          "index": "171",
+          "refcount": "0"
+        },
+        "com.apple.AGDCPluginDisplayMetrics": {
+          "version": "8.1.9",
+          "size": 8192,
+          "index": "173",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleOnboardSerial": {
+          "version": "1.0",
+          "size": 65536,
+          "index": "174",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleIntelLpssUARTCommon": {
+          "version": "3.0.60",
+          "size": 8192,
+          "index": "175",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleIntelLpssUARTv1": {
+          "version": "3.0.60",
+          "size": 4084,
+          "index": "176",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleGraphicsDevicePolicy": {
+          "version": "8.1.9",
+          "size": 53248,
+          "index": "177",
+          "refcount": "0"
+        },
+        "com.apple.vecLib.kext": {
+          "version": "1.2.0",
+          "size": 794604,
+          "index": "178",
+          "refcount": "1"
+        },
+        "com.apple.iokit.IOAudioFamily": {
+          "version": "540.3",
+          "size": 122880,
+          "index": "179",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleBridgeAudioController": {
+          "version": "440.1",
+          "size": 40956,
+          "index": "182",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleGFXHDA": {
+          "version": "340.1",
+          "size": 389120,
+          "index": "183",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleAudioClockLibs": {
+          "version": "340.8",
+          "size": 4091,
+          "index": "184",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDRadeonServiceManager": {
+          "version": "5.0.5",
+          "size": 12280,
+          "index": "186",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDRadeonX6000HWServices": {
+          "version": "5.0.5",
+          "size": 12283,
+          "index": "187",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDRadeonX6000": {
+          "version": "5.0.5",
+          "size": 1409016,
+          "index": "188",
+          "refcount": "0"
+        },
+        "com.apple.kext.AMDRadeonX6100HWLibs": {
+          "version": "1.0",
+          "size": 3895288,
+          "index": "189",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleUpstreamUserClient": {
+          "version": "3.6.11",
+          "size": 12288,
+          "index": "190",
+          "refcount": "0"
+        },
+        "com.apple.filesystems.autofs": {
+          "version": "3.0",
+          "size": 32757,
+          "index": "191",
+          "refcount": "0"
+        },
+        "com.apple.driver.X86PlatformShim": {
+          "version": "1.0.0",
+          "size": 24576,
+          "index": "192",
+          "refcount": "1"
+        },
+        "com.apple.driver.AGPM": {
+          "version": "135",
+          "size": 126968,
+          "index": "194",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleHIDKeyboard": {
+          "version": "7440.3",
+          "size": 20472,
+          "index": "195",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleHIDALSService": {
+          "version": "1",
+          "size": 4093,
+          "index": "196",
+          "refcount": "0"
+        },
+        "com.apple.driver.IOBluetoothHIDDriver": {
+          "version": "9.0.0",
+          "size": 86009,
+          "index": "197",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleHSBluetoothDriver": {
+          "version": "7440.8",
+          "size": 28660,
+          "index": "198",
+          "refcount": "1"
+        },
+        "com.apple.driver.AppleInputDeviceSupport": {
+          "version": "7440.1",
+          "size": 65533,
+          "index": "199",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleMultitouchDriver": {
+          "version": "7440.9",
+          "size": 90105,
+          "index": "200",
+          "refcount": "2"
+        },
+        "com.apple.driver.AppleTopCaseHIDEventDriver": {
+          "version": "7440.8",
+          "size": 36851,
+          "index": "201",
+          "refcount": "0"
+        },
+        "com.apple.driver.AppleActuatorDriver": {
+          "version": "7440.9",
+          "size": 32763,
+          "index": "202",
+          "refcount": "0"
+        },
+        "com.apple.nke.ppp": {
+          "version": "1.9",
+          "size": 40960,
+          "index": "204",
+          "refcount": "0"
+        }
+      }
+    },
+    "memory": {
+      "total": "16384MB",
+      "active": "8774MB",
+      "inactive": "5160MB",
+      "free": "2448MB"
+    },
+    "network": {
+      "interfaces": {
+        "lo0": {
+          "addresses": {
+            "127.0.0.1": {
+              "family": "inet",
+              "netmask": "255.0.0.0"
+            },
+            "::1": {
+              "family": "inet6",
+              "prefixlen": "128",
+              "scope": "Node"
+            },
+            "fe80::1": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "16384",
+          "flags": [
+            "UP",
+            "LOOPBACK",
+            "RUNNING",
+            "MULTICAST"
+          ],
+          "type": "lo",
+          "number": "0",
+          "encapsulation": "Loopback"
+        },
+        "gif0": {
+          "addresses": {
+
+          },
+          "mtu": "1280",
+          "flags": [
+            "POINTOPOINT",
+            "MULTICAST"
+          ],
+          "type": "gif",
+          "number": "0",
+          "encapsulation": "IPIP"
+        },
+        "stf0": {
+          "addresses": {
+
+          },
+          "mtu": "1280",
+          "flags": [
+
+          ],
+          "type": "stf",
+          "number": "0",
+          "encapsulation": "6to4"
+        },
+        "en5": {
+          "addresses": {
+            "ac:de:48:00:11:22": {
+              "family": "lladdr"
+            },
+            "fe80::aede:48ff:fe00:1122": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "5",
+          "encapsulation": "Ethernet"
+        },
+        "ap1": {
+          "addresses": {
+            "3e:22:fb:75:66:b5": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "ap",
+          "number": "1",
+          "encapsulation": "Ethernet"
+        },
+        "en0": {
+          "addresses": {
+            "3c:22:fb:75:66:b5": {
+              "family": "lladdr"
+            },
+            "192.168.1.4": {
+              "family": "inet",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "0",
+          "encapsulation": "Ethernet",
+          "arp": {
+            "192.168.1.1": "f4:27:56:25:83:37",
+            "224.0.0.251": "1:0:5e:0:0:fb"
+          }
+        },
+        "awdl0": {
+          "addresses": {
+            "72:0a:38:9a:64:55": {
+              "family": "lladdr"
+            },
+            "fe80::700a:38ff:fe9a:6455": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "RUNNING",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "awdl",
+          "number": "0",
+          "encapsulation": "Ethernet"
+        },
+        "llw0": {
+          "addresses": {
+            "72:0a:38:9a:64:55": {
+              "family": "lladdr"
+            },
+            "fe80::700a:38ff:fe9a:6455": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "llw",
+          "number": "0",
+          "encapsulation": "Ethernet"
+        },
+        "en2": {
+          "addresses": {
+            "82:df:1f:83:bc:00": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "PROMISC",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "2",
+          "encapsulation": "Ethernet"
+        },
+        "en3": {
+          "addresses": {
+            "82:df:1f:83:bc:05": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "PROMISC",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "3",
+          "encapsulation": "Ethernet"
+        },
+        "en1": {
+          "addresses": {
+            "82:df:1f:83:bc:01": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "PROMISC",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "1",
+          "encapsulation": "Ethernet"
+        },
+        "en4": {
+          "addresses": {
+            "82:df:1f:83:bc:04": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "PROMISC",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "en",
+          "number": "4",
+          "encapsulation": "Ethernet"
+        },
+        "bridge0": {
+          "addresses": {
+            "82:df:1f:83:bc:01": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "BROADCAST",
+            "SMART",
+            "RUNNING",
+            "SIMPLEX",
+            "MULTICAST"
+          ],
+          "type": "bridge",
+          "number": "0",
+          "encapsulation": "Ethernet"
+        },
+        "utun0": {
+          "addresses": {
+            "fe80::e5d6:55d6:db08:87b0": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1500",
+          "flags": [
+            "UP",
+            "POINTOPOINT",
+            "RUNNING",
+            "MULTICAST"
+          ],
+          "type": "utun",
+          "number": "0",
+          "encapsulation": "Unknown"
+        },
+        "utun1": {
+          "addresses": {
+            "fe80::e3c4:32f3:2cfa:99ff": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1380",
+          "flags": [
+            "UP",
+            "POINTOPOINT",
+            "RUNNING",
+            "MULTICAST"
+          ],
+          "type": "utun",
+          "number": "1",
+          "encapsulation": "Unknown"
+        },
+        "utun2": {
+          "addresses": {
+            "fe80::9eb1:bc8a:1082:4602": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "2000",
+          "flags": [
+            "UP",
+            "POINTOPOINT",
+            "RUNNING",
+            "MULTICAST"
+          ],
+          "type": "utun",
+          "number": "2",
+          "encapsulation": "Unknown"
+        },
+        "utun3": {
+          "addresses": {
+            "fe80::ce81:b1c:bd2c:69e": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "mtu": "1000",
+          "flags": [
+            "UP",
+            "POINTOPOINT",
+            "RUNNING",
+            "MULTICAST"
+          ],
+          "type": "utun",
+          "number": "3",
+          "encapsulation": "Unknown"
+        }
+      },
+      "default_gateway": "192.168.1.1",
+      "default_interface": "en0",
+      "settings": {
+        "net.local.stream.sendspace": "8192",
+        "net.local.stream.recvspace": "8192",
+        "net.local.stream.tracemdns": "0",
+        "net.local.dgram.maxdgram": "2048",
+        "net.local.dgram.recvspace": "4096",
+        "net.local.inflight": "0",
+        "net.local.log": "0",
+        "net.inet.ip.portrange.lowfirst": "1023",
+        "net.inet.ip.portrange.lowlast": "600",
+        "net.inet.ip.portrange.first": "49152",
+        "net.inet.ip.portrange.last": "65535",
+        "net.inet.ip.portrange.hifirst": "49152",
+        "net.inet.ip.portrange.hilast": "65535",
+        "net.inet.ip.portrange.ipport_allow_udp_port_exhaustion": "0",
+        "net.inet.ip.forwarding": "0",
+        "net.inet.ip.redirect": "1",
+        "net.inet.ip.ttl": "64",
+        "net.inet.ip.rtexpire": "12",
+        "net.inet.ip.rtminexpire": "10",
+        "net.inet.ip.rtmaxcache": "128",
+        "net.inet.ip.sourceroute": "0",
+        "net.inet.ip.accept_sourceroute": "0",
+        "net.inet.ip.gifttl": "30",
+        "net.inet.ip.log.privacy": "1",
+        "net.inet.ip.linklocal.in.allowbadttl": "1",
+        "net.inet.ip.dummynet.hash_size": "64",
+        "net.inet.ip.dummynet.curr_time": "0",
+        "net.inet.ip.dummynet.ready_heap": "0",
+        "net.inet.ip.dummynet.extract_heap": "0",
+        "net.inet.ip.dummynet.searches": "0",
+        "net.inet.ip.dummynet.search_steps": "0",
+        "net.inet.ip.dummynet.expire": "1",
+        "net.inet.ip.dummynet.max_chain_len": "16",
+        "net.inet.ip.dummynet.red_lookup_depth": "256",
+        "net.inet.ip.dummynet.red_avg_pkt_size": "512",
+        "net.inet.ip.dummynet.red_max_pkt_size": "1500",
+        "net.inet.ip.dummynet.debug": "0",
+        "net.inet.ip.mcast.maxgrpsrc": "512",
+        "net.inet.ip.mcast.maxsocksrc": "128",
+        "net.inet.ip.mcast.loop": "1",
+        "net.inet.ip.subnets_are_local": "0",
+        "net.inet.ip.sendsourcequench": "0",
+        "net.inet.ip.maxfragpackets": "4096",
+        "net.inet.ip.fragpackets": "0",
+        "net.inet.ip.maxfragsperpacket": "128",
+        "net.inet.ip.adj_clear_hwcksum": "0",
+        "net.inet.ip.adj_partial_sum": "1",
+        "net.inet.ip.check_interface": "1",
+        "net.inet.ip.checkinterface_debug": "0",
+        "net.inet.ip.rx_chaining": "1",
+        "net.inet.ip.rx_chainsz": "6",
+        "net.inet.ip.maxchainsent": "112",
+        "net.inet.ip.force_ipsum": "0",
+        "net.inet.ip.select_srcif_debug": "0",
+        "net.inet.ip.output_perf": "0",
+        "net.inet.ip.output_perf_bins": "0",
+        "net.inet.ip.rfc6864": "1",
+        "net.inet.icmp.maskrepl": "0",
+        "net.inet.icmp.timestamp": "0",
+        "net.inet.icmp.drop_redirect": "1",
+        "net.inet.icmp.log_redirect": "0",
+        "net.inet.icmp.bmcastecho": "1",
+        "net.inet.icmp.suppress_icmp_port_unreach": "0",
+        "net.inet.igmp.recvifkludge": "1",
+        "net.inet.igmp.sendra": "1",
+        "net.inet.igmp.sendlocal": "1",
+        "net.inet.igmp.v1enable": "1",
+        "net.inet.igmp.v2enable": "1",
+        "net.inet.igmp.legacysupp": "0",
+        "net.inet.igmp.default_version": "3",
+        "net.inet.igmp.gsrdelay": "10",
+        "net.inet.igmp.debug": "0",
+        "net.inet.tcp.mssdflt": "512",
+        "net.inet.tcp.keepidle": "7200000",
+        "net.inet.tcp.keepintvl": "75000",
+        "net.inet.tcp.sendspace": "131072",
+        "net.inet.tcp.recvspace": "131072",
+        "net.inet.tcp.keepinit": "75000",
+        "net.inet.tcp.v6mssdflt": "1024",
+        "net.inet.tcp.log.enable": "0",
+        "net.inet.tcp.log.enable_usage": "connection:0x00000001 rtt:0x00000002 ka:0x00000004 log:0x00000008 loop:0x00000010 local:0x00000020 gw:0x00000040 syn:0x00000100 fin:0x00000200 rst:0x00000400 dropnecp:0x00001000 droppcb:0x00002000 droppkt:0x00004000 fswflow:0x00008000 state:0x00010000 synrxmt:0x00020000 output:0x00040000 ",
+        "net.inet.tcp.log.rtt_port": "0",
+        "net.inet.tcp.log.thflags_if_family": "0",
+        "net.inet.tcp.log.rate_limit": "1000",
+        "net.inet.tcp.log.rate_duration": "60",
+        "net.inet.tcp.log.rate_max": "0",
+        "net.inet.tcp.log.rate_exceeded_total": "0",
+        "net.inet.tcp.log.rate_current": "0",
+        "net.inet.tcp.reass.overflows": "0",
+        "net.inet.tcp.reass.qlen": "0",
+        "net.inet.tcp.backoff_maximum": "65536",
+        "net.inet.tcp.ecn_timeout": "60",
+        "net.inet.tcp.disable_tcp_heuristics": "0",
+        "net.inet.tcp.mptcp_version_timeout": "1440",
+        "net.inet.tcp.clear_tfocache": "0",
+        "net.inet.tcp.flow_control_response": "1",
+        "net.inet.tcp.log_in_vain": "4",
+        "net.inet.tcp.ack_strategy": "1",
+        "net.inet.tcp.blackhole": "2",
+        "net.inet.tcp.aggressive_rcvwnd_inc": "1",
+        "net.inet.tcp.delayed_ack": "3",
+        "net.inet.tcp.recvbg": "0",
+        "net.inet.tcp.drop_synfin": "1",
+        "net.inet.tcp.slowlink_wsize": "8192",
+        "net.inet.tcp.maxseg_unacked": "8",
+        "net.inet.tcp.rfc3465": "1",
+        "net.inet.tcp.rfc3465_lim2": "1",
+        "net.inet.tcp.recv_allowed_iaj": "5",
+        "net.inet.tcp.doautorcvbuf": "1",
+        "net.inet.tcp.autotunereorder": "1",
+        "net.inet.tcp.autorcvbufmax": "4194304",
+        "net.inet.tcp.disable_access_to_stats": "1",
+        "net.inet.tcp.challengeack_limit": "10",
+        "net.inet.tcp.do_rfc5961": "1",
+        "net.inet.tcp.do_better_lr": "1",
+        "net.inet.tcp.use_min_curr_rtt": "1",
+        "net.inet.tcp.awdl_rtobase": "100",
+        "net.inet.tcp.rcvsspktcnt": "512",
+        "net.inet.tcp.rexmt_thresh": "3",
+        "net.inet.tcp.path_mtu_discovery": "1",
+        "net.inet.tcp.local_slowstart_flightsize": "8",
+        "net.inet.tcp.tso": "1",
+        "net.inet.tcp.ecn_setup_percentage": "100",
+        "net.inet.tcp.accurate_ecn": "0",
+        "net.inet.tcp.do_ack_compression": "1",
+        "net.inet.tcp.ack_compression_rate": "5",
+        "net.inet.tcp.randomize_timestamps": "1",
+        "net.inet.tcp.ecn_initiate_out": "2",
+        "net.inet.tcp.ecn_negotiate_in": "2",
+        "net.inet.tcp.packetchain": "50",
+        "net.inet.tcp.socket_unlocked_on_output": "1",
+        "net.inet.tcp.min_iaj_win": "16",
+        "net.inet.tcp.acc_iaj_react_limit": "200",
+        "net.inet.tcp.autosndbufinc": "8192",
+        "net.inet.tcp.autosndbufmax": "4194304",
+        "net.inet.tcp.rtt_recvbg": "1",
+        "net.inet.tcp.recv_throttle_minwin": "16384",
+        "net.inet.tcp.enable_tlp": "1",
+        "net.inet.tcp.sack": "1",
+        "net.inet.tcp.sack_maxholes": "128",
+        "net.inet.tcp.sack_globalmaxholes": "65536",
+        "net.inet.tcp.sack_globalholes": "0",
+        "net.inet.tcp.fastopen_key": "",
+        "net.inet.tcp.fastopen_backlog": "10",
+        "net.inet.tcp.fastopen": "3",
+        "net.inet.tcp.now_init": "374444830",
+        "net.inet.tcp.microuptime_init": "938339",
+        "net.inet.tcp.minmss": "216",
+        "net.inet.tcp.pcbcount": "295",
+        "net.inet.tcp.tw_pcbcount": "10",
+        "net.inet.tcp.icmp_may_rst": "1",
+        "net.inet.tcp.rtt_min": "100",
+        "net.inet.tcp.rexmt_slop": "200",
+        "net.inet.tcp.randomize_ports": "0",
+        "net.inet.tcp.win_scale_factor": "3",
+        "net.inet.tcp.init_rtt_from_cache": "1",
+        "net.inet.tcp.tso_debug": "0",
+        "net.inet.tcp.rxt_seg_max": "1024",
+        "net.inet.tcp.rxt_seg_drop": "0",
+        "net.inet.tcp.tcbhashsize": "4096",
+        "net.inet.tcp.keepcnt": "8",
+        "net.inet.tcp.msl": "15000",
+        "net.inet.tcp.fin_timeout": "60000",
+        "net.inet.tcp.max_persist_timeout": "0",
+        "net.inet.tcp.always_keepalive": "0",
+        "net.inet.tcp.timer_fastmode_idlemax": "10",
+        "net.inet.tcp.broken_peer_syn_rexmit_thres": "10",
+        "net.inet.tcp.tcp_timer_advanced": "351",
+        "net.inet.tcp.tcp_resched_timerlist": "108471",
+        "net.inet.tcp.pmtud_blackhole_detection": "1",
+        "net.inet.tcp.pmtud_blackhole_mss": "1200",
+        "net.inet.tcp.faster_mcopy": "1",
+        "net.inet.tcp.cubic_tcp_friendliness": "0",
+        "net.inet.tcp.cubic_fast_convergence": "0",
+        "net.inet.tcp.cubic_use_minrtt": "0",
+        "net.inet.tcp.cubic_minor_fixes": "1",
+        "net.inet.tcp.cubic_rfc_compliant": "1",
+        "net.inet.tcp.bg_target_qdelay": "40",
+        "net.inet.tcp.bg_allowed_increase": "8",
+        "net.inet.tcp.bg_tether_shift": "1",
+        "net.inet.tcp.bg_ss_fltsz": "2",
+        "net.inet.tcp.ledbat_plus_plus": "1",
+        "net.inet.tcp.rledbat": "1",
+        "net.inet.tcp.cc_debug": "0",
+        "net.inet.tcp.newreno_sockets": "0",
+        "net.inet.tcp.background_sockets": "2",
+        "net.inet.tcp.use_ledbat": "0",
+        "net.inet.tcp.cubic_sockets": "281",
+        "net.inet.tcp.use_newreno": "0",
+        "net.inet.tcp.mptcp_preferred_version": "1",
+        "net.inet.udp.checksum": "1",
+        "net.inet.udp.maxdgram": "9216",
+        "net.inet.udp.recvspace": "786896",
+        "net.inet.udp.log.enable": "0",
+        "net.inet.udp.log.enable_usage": "bind:0x00000002 connection:0x00000001 log:0x00000008 loop:0x00000010 local:0x00000020 gw:0x00000040 dropnecp:0x00001000 droppcb:0x00002000 droppkt:0x00004000 ",
+        "net.inet.udp.log.local_port_included": "0",
+        "net.inet.udp.log.remote_port_included": "0",
+        "net.inet.udp.log.local_port_excluded": "0",
+        "net.inet.udp.log.remote_port_excluded": "0",
+        "net.inet.udp.log.rate_limit": "1000",
+        "net.inet.udp.log.rate_duration": "60",
+        "net.inet.udp.log.rate_max": "0",
+        "net.inet.udp.log.rate_exceeded_total": "0",
+        "net.inet.udp.log.rate_current": "0",
+        "net.inet.udp.log_in_vain": "4",
+        "net.inet.udp.blackhole": "1",
+        "net.inet.udp.pcbcount": "1246",
+        "net.inet.udp.randomize_ports": "1",
+        "net.inet.ipsec.def_policy": "1",
+        "net.inet.ipsec.esp_trans_deflev": "1",
+        "net.inet.ipsec.esp_net_deflev": "1",
+        "net.inet.ipsec.ah_trans_deflev": "1",
+        "net.inet.ipsec.ah_net_deflev": "1",
+        "net.inet.ipsec.ah_cleartos": "1",
+        "net.inet.ipsec.ah_offsetmask": "0",
+        "net.inet.ipsec.dfbit": "0",
+        "net.inet.ipsec.ecn": "0",
+        "net.inet.ipsec.debug": "0",
+        "net.inet.ipsec.esp_randpad": "-1",
+        "net.inet.ipsec.bypass": "1",
+        "net.inet.ipsec.esp_port": "0",
+        "net.inet.mptcp.enable": "1",
+        "net.inet.mptcp.mptcp_cap_retr": "4",
+        "net.inet.mptcp.dss_csum": "0",
+        "net.inet.mptcp.fail": "1",
+        "net.inet.mptcp.keepalive": "840",
+        "net.inet.mptcp.rtthist_thresh": "600",
+        "net.inet.mptcp.rto_thresh": "1500",
+        "net.inet.mptcp.probeto": "1000",
+        "net.inet.mptcp.probecnt": "5",
+        "net.inet.mptcp.enable_v1": "1",
+        "net.inet.mptcp.reass_qlen": "0",
+        "net.inet.mptcp.pcbcount": "0",
+        "net.inet.mptcp.alternate_port": "0",
+        "net.inet.mptcp.allow_aggregate": "0",
+        "net.inet.mptcp.no_first_party": "0",
+        "net.inet.mptcp.expected_progress_headstart": "5000",
+        "net.inet.mptcp.rto": "3",
+        "net.inet.mptcp.nrto": "3",
+        "net.inet.mptcp.tw": "60",
+        "net.inet.raw.maxdgram": "8192",
+        "net.inet.raw.recvspace": "8192",
+        "net.inet.raw.pcbcount": "2",
+        "net.inet.log_restricted": "0",
+        "net.link.generic.system.ifcount": "18",
+        "net.link.generic.system.management.verbose": "0",
+        "net.link.generic.system.management.data_unrestricted": "0",
+        "net.link.generic.system.management.control_unrestricted": "0",
+        "net.link.generic.system.port_used.verbose": "0",
+        "net.link.generic.system.port_used.wakeuuid_not_set_last_time": "{ sec = 0, usec = 0 } Thu Jan  1 05:30:00 1970",
+        "net.link.generic.system.port_used.wakeuuid_not_set_last_if": "",
+        "net.link.generic.system.port_used.wakeuuid_last_update_time": "{ sec = 1729801423, usec = 877260 } Fri Oct 25 01:53:43 2024",
+        "net.link.generic.system.if_verbose": "0",
+        "net.link.generic.system.companion_sndbuf_limit": "0",
+        "net.link.generic.system.dlil_verbose": "0",
+        "net.link.generic.system.sndq_maxlen": "128",
+        "net.link.generic.system.rcvq_maxlen": "256",
+        "net.link.generic.system.rcvq_burst_limit": "8192",
+        "net.link.generic.system.rcvq_trim_pct": "8192",
+        "net.link.generic.system.rxpoll_decay": "2",
+        "net.link.generic.system.rxpoll_freeze_time": "1000000000",
+        "net.link.generic.system.rxpoll_sample_time": "10000000",
+        "net.link.generic.system.rxpoll_interval_time": "1000000",
+        "net.link.generic.system.rxpoll_interval_pkts": "0",
+        "net.link.generic.system.rxpoll_wakeups_lowat": "10",
+        "net.link.generic.system.rxpoll_wakeups_hiwat": "100",
+        "net.link.generic.system.rxpoll_max": "0",
+        "net.link.generic.system.rxpoll": "1",
+        "net.link.generic.system.dlil_input_threads": "17",
+        "net.link.generic.system.dlil_input_sanity_check": "0",
+        "net.link.generic.system.flow_advisory": "1",
+        "net.link.generic.system.delaybased_queue": "1",
+        "net.link.generic.system.hwcksum_in_invalidated": "0",
+        "net.link.generic.system.hwcksum_dbg": "0",
+        "net.link.generic.system.start_delayed": "0",
+        "net.link.generic.system.start_delay_disabled": "0",
+        "net.link.generic.system.hwcksum_dbg_mode": "0",
+        "net.link.generic.system.hwcksum_dbg_partial_forced": "0",
+        "net.link.generic.system.hwcksum_dbg_partial_forced_bytes": "0",
+        "net.link.generic.system.hwcksum_dbg_partial_rxoff_forced": "0",
+        "net.link.generic.system.hwcksum_dbg_partial_rxoff_adj": "0",
+        "net.link.generic.system.hwcksum_dbg_verified": "0",
+        "net.link.generic.system.hwcksum_dbg_bad_cksum": "0",
+        "net.link.generic.system.hwcksum_dbg_bad_rxoff": "0",
+        "net.link.generic.system.hwcksum_dbg_adjusted": "0",
+        "net.link.generic.system.hwcksum_dbg_finalized_hdr": "0",
+        "net.link.generic.system.hwcksum_dbg_finalized_data": "0",
+        "net.link.generic.system.hwcksum_tx": "1",
+        "net.link.generic.system.hwcksum_rx": "1",
+        "net.link.generic.system.tx_chain_len_count": "0",
+        "net.link.generic.system.threshold_notify": "1",
+        "net.link.generic.system.threshold_interval": "2",
+        "net.link.generic.system.wake_pkt_debug": "0",
+        "net.link.generic.system.enable_netagent": "0",
+        "net.link.ether.inet.prune_intvl": "300",
+        "net.link.ether.inet.probe_intvl": "7",
+        "net.link.ether.inet.max_age": "1200",
+        "net.link.ether.inet.host_down_time": "20",
+        "net.link.ether.inet.arp_llreach_base": "120",
+        "net.link.ether.inet.arp_unicast_lim": "3",
+        "net.link.ether.inet.maxtries": "5",
+        "net.link.ether.inet.maxhold": "16",
+        "net.link.ether.inet.useloopback": "1",
+        "net.link.ether.inet.proxyall": "0",
+        "net.link.ether.inet.sendllconflict": "0",
+        "net.link.ether.inet.log_arp_warnings": "0",
+        "net.link.ether.inet.keep_announcements": "1",
+        "net.link.ether.inet.send_conflicting_probes": "1",
+        "net.link.ether.inet.verbose": "0",
+        "net.link.ether.inet.maxhold_total": "1024",
+        "net.link.vlan.debug": "0",
+        "net.link.bridge.inherit_mac": "0",
+        "net.link.bridge.rtable_prune_period": "300",
+        "net.link.bridge.rtable_hash_size_max": "2048",
+        "net.link.bridge.txstart": "0",
+        "net.link.bridge.debug": "0",
+        "net.link.bridge.log_level": "5",
+        "net.link.bridge.segmentation": "1",
+        "net.link.bridge.vmnet_pf_tagging": "1",
+        "net.link.bridge.tso_reduce_mss_forwarding": "110",
+        "net.link.bridge.tso_reduce_mss_tx": "0",
+        "net.link.pktap.total_tap_count": "0",
+        "net.link.pktap.count_unknown_if_type": "0",
+        "net.link.pktap.log": "0",
+        "net.link.iptap.total_tap_count": "0",
+        "net.link.iptap.log": "0",
+        "net.link.bond.debug": "0",
+        "net.link.redirect.debug": "0",
+        "net.link.fake.txstart": "1",
+        "net.link.fake.hwcsum": "0",
+        "net.link.fake.nxattach": "0",
+        "net.link.fake.bsd_mode": "1",
+        "net.link.fake.debug": "0",
+        "net.link.fake.wmm_mode": "0",
+        "net.link.fake.multibuflet": "0",
+        "net.link.fake.low_latency": "0",
+        "net.link.fake.switch_combined_mode": "0",
+        "net.link.fake.switch_mode_frequency": "10",
+        "net.link.fake.tso_support": "0",
+        "net.link.fake.expiration_threshold": "500",
+        "net.link.fake.lro": "0",
+        "net.link.fake.pktpool_mode": "0",
+        "net.link.fake.link_layer_aggregation_factor": "96",
+        "net.link.fake.tx_headroom": "32",
+        "net.link.fake.fcs": "0",
+        "net.link.fake.trailer_length": "0",
+        "net.link.fake.tso_buf_size": "16384",
+        "net.link.fake.max_mtu": "2048",
+        "net.link.fake.buflet_size": "512",
+        "net.link.fake.user_access": "0",
+        "net.link.fake.if_adv_intvl": "0",
+        "net.link.fake.tx_drops": "0",
+        "net.link.fake.tx_exp_policy": "0",
+        "net.link.fake.tx_completion_mode": "0",
+        "net.link.fake.llink_cnt": "0",
+        "net.link.fake.qset_cnt": "4",
+        "net.link.fake.trace_tag": "0",
+        "net.link.loopback.max_dequeue": "256",
+        "net.link.loopback.sched_model": "0",
+        "net.link.loopback.dequeue_sc": "0",
+        "net.key.debug": "0",
+        "net.key.spi_trycnt": "1000",
+        "net.key.spi_minval": "256",
+        "net.key.spi_maxval": "268435455",
+        "net.key.int_random": "60",
+        "net.key.larval_lifetime": "30",
+        "net.key.blockacq_count": "10",
+        "net.key.blockacq_lifetime": "20",
+        "net.key.esp_keymin": "256",
+        "net.key.esp_auth": "0",
+        "net.key.ah_keymin": "128",
+        "net.key.prefered_oldsa": "0",
+        "net.key.natt_keepalive_interval": "20",
+        "net.inet6.ip6.forwarding": "0",
+        "net.inet6.ip6.redirect": "1",
+        "net.inet6.ip6.hlim": "64",
+        "net.inet6.ip6.maxfragpackets": "4096",
+        "net.inet6.ip6.accept_rtadv": "1",
+        "net.inet6.ip6.keepfaith": "0",
+        "net.inet6.ip6.log_interval": "5",
+        "net.inet6.ip6.hdrnestlimit": "15",
+        "net.inet6.ip6.dad_count": "1",
+        "net.inet6.ip6.auto_flowlabel": "1",
+        "net.inet6.ip6.defmcasthlim": "1",
+        "net.inet6.ip6.gifhlim": "0",
+        "net.inet6.ip6.kame_version": "2009/apple-darwin",
+        "net.inet6.ip6.use_deprecated": "1",
+        "net.inet6.ip6.rr_prune": "5",
+        "net.inet6.ip6.v6only": "0",
+        "net.inet6.ip6.rtexpire": "3600",
+        "net.inet6.ip6.rtminexpire": "10",
+        "net.inet6.ip6.rtmaxcache": "128",
+        "net.inet6.ip6.use_tempaddr": "1",
+        "net.inet6.ip6.temppltime": "86400",
+        "net.inet6.ip6.tempvltime": "604800",
+        "net.inet6.ip6.auto_linklocal": "1",
+        "net.inet6.ip6.prefer_tempaddr": "1",
+        "net.inet6.ip6.use_defaultzone": "0",
+        "net.inet6.ip6.maxfrags": "8192",
+        "net.inet6.ip6.mcast_pmtu": "0",
+        "net.inet6.ip6.neighborgcthresh": "1024",
+        "net.inet6.ip6.maxifprefixes": "16",
+        "net.inet6.ip6.maxifdefrouters": "64",
+        "net.inet6.ip6.maxdynroutes": "1024",
+        "net.inet6.ip6.ula_use_tempaddr": "0",
+        "net.inet6.ip6.mcast.maxgrpsrc": "512",
+        "net.inet6.ip6.mcast.maxsocksrc": "128",
+        "net.inet6.ip6.mcast.loop": "1",
+        "net.inet6.ip6.fragpackets": "0",
+        "net.inet6.ip6.adj_clear_hwcksum": "0",
+        "net.inet6.ip6.adj_partial_sum": "1",
+        "net.inet6.ip6.input_perf": "0",
+        "net.inet6.ip6.input_perf_bins": "0",
+        "net.inet6.ip6.check_interface": "1",
+        "net.inet6.ip6.checkinterface_debug": "0",
+        "net.inet6.ip6.output_perf": "0",
+        "net.inet6.ip6.output_perf_bins": "0",
+        "net.inet6.ip6.select_srcif_debug": "0",
+        "net.inet6.ip6.select_srcaddr_debug": "0",
+        "net.inet6.ip6.select_src_expensive_secondary_if": "0",
+        "net.inet6.ip6.select_src_strong_end": "1",
+        "net.inet6.ip6.only_allow_rfc4193_prefixes": "0",
+        "net.inet6.ip6.clat_debug": "0",
+        "net.inet6.ip6.cga_conflict_retries": "3",
+        "net.inet6.ip6.compliance_profile": "0",
+        "net.inet6.ip6.maxchainsent": "50",
+        "net.inet6.ip6.dad_enhanced": "1",
+        "net.inet6.ip6.nd6_dad_nonce_max_count": "3",
+        "net.inet6.ip6.in6_embedded_scope": "1",
+        "net.inet6.ip6.in6_embedded_scope_debug": "0",
+        "net.inet6.ipsec6.def_policy": "1",
+        "net.inet6.ipsec6.esp_trans_deflev": "1",
+        "net.inet6.ipsec6.esp_net_deflev": "1",
+        "net.inet6.ipsec6.ah_trans_deflev": "1",
+        "net.inet6.ipsec6.ah_net_deflev": "1",
+        "net.inet6.ipsec6.ecn": "0",
+        "net.inet6.ipsec6.debug": "0",
+        "net.inet6.ipsec6.esp_randpad": "-1",
+        "net.inet6.icmp6.rediraccept": "1",
+        "net.inet6.icmp6.redirtimeout": "600",
+        "net.inet6.icmp6.nd6_prune": "1",
+        "net.inet6.icmp6.nd6_delay": "5",
+        "net.inet6.icmp6.nd6_umaxtries": "3",
+        "net.inet6.icmp6.nd6_mmaxtries": "3",
+        "net.inet6.icmp6.nd6_useloopback": "1",
+        "net.inet6.icmp6.nodeinfo": "0",
+        "net.inet6.icmp6.errppslimit": "542",
+        "net.inet6.icmp6.nd6_debug": "0",
+        "net.inet6.icmp6.nd6_accept_6to4": "1",
+        "net.inet6.icmp6.nd6_optimistic_dad": "63",
+        "net.inet6.icmp6.errppslimit_random_incr": "500",
+        "net.inet6.icmp6.nd6_onlink_ns_rfc4861": "0",
+        "net.inet6.icmp6.suppress_icmp6_port_unreach": "0",
+        "net.inet6.icmp6.nd6_prune_lazy": "5",
+        "net.inet6.icmp6.rappslimit": "10",
+        "net.inet6.icmp6.nd6_process_rti": "1",
+        "net.inet6.icmp6.nd6_llreach_base": "30",
+        "net.inet6.icmp6.nd6_maxsolstgt": "8",
+        "net.inet6.icmp6.nd6_maxproxiedsol": "4",
+        "net.inet6.icmp6.prproxy_cnt": "0",
+        "net.inet6.mld.gsrdelay": "10",
+        "net.inet6.mld.v1enable": "1",
+        "net.inet6.mld.v2enable": "1",
+        "net.inet6.mld.use_allow": "1",
+        "net.inet6.mld.debug": "0",
+        "net.inet6.send.opmode": "1",
+        "net.inet6.send.opstate": "1",
+        "net.systm.kctl.autorcvbufmax": "262144",
+        "net.systm.kctl.autorcvbufhigh": "0",
+        "net.systm.kctl.debug": "0",
+        "net.soflow.log_level": "3",
+        "net.soflow.log_port": "0",
+        "net.soflow.log_pid": "0",
+        "net.soflow.log_proto": "0",
+        "net.soflow.nstat_disable": "0",
+        "net.soflow.disable": "0",
+        "net.soflow.count": "0",
+        "net.soflow.high_water_mark": "234",
+        "net.tracker.log": "3",
+        "net.tracker.idle_timeout": "10",
+        "net.vsock.sendspace": "524288",
+        "net.vsock.recvspace": "524288",
+        "net.mpklog.enabled": "1",
+        "net.mpklog.type": "0",
+        "net.mpklog.version": "1",
+        "net.qos.policy.restricted": "0",
+        "net.qos.policy.restrict_avapps": "0",
+        "net.qos.policy.wifi_enabled": "0",
+        "net.qos.policy.capable_enabled": "0",
+        "net.qos.reset_dscp_to_wifi_ac_map": "0",
+        "net.qos.verbose": "0",
+        "net.pktsched.netem.sched_output_ival_ms": "1",
+        "net.pktsched.netem.heap_size": "2048",
+        "net.pktsched.verbose": "0",
+        "net.classq.fq_codel.fq_enable_pacing": "1",
+        "net.classq.verbose": "0",
+        "net.classq.def_c_target_qdelay": "0",
+        "net.classq.def_c_update_interval": "0",
+        "net.classq.def_l4s_target_qdelay": "0",
+        "net.classq.def_l4s_update_interval": "0",
+        "net.classq.ll_c_target_qdelay": "0",
+        "net.classq.ll_c_update_interval": "0",
+        "net.classq.ll_l4s_target_qdelay": "0",
+        "net.classq.ll_l4s_update_interval": "0",
+        "net.classq.enable_l4s": "1",
+        "net.restricted_port.enforced": "1",
+        "net.restricted_port.verbose": "0",
+        "net.cfil.log": "3",
+        "net.cfil.log_port": "0",
+        "net.cfil.log_pid": "0",
+        "net.cfil.log_proto": "0",
+        "net.cfil.log_data": "0",
+        "net.cfil.log_stats": "0",
+        "net.cfil.debug": "1",
+        "net.cfil.sock_attached_count": "34",
+        "net.cfil.active_count": "1",
+        "net.cfil.close_wait_timeout": "1000",
+        "net.cfil.behavior_flags": "0",
+        "net.cfil.sbtrim": "1",
+        "net.netagent.debug": "5",
+        "net.netagent.registered_count": "56",
+        "net.netagent.active_count": "51",
+        "net.necp.drop_all_level": "12",
+        "net.necp.debug": "0",
+        "net.necp.pass_loopback": "2",
+        "net.necp.pass_keepalives": "1",
+        "net.necp.socket_policy_count": "430",
+        "net.necp.socket_non_app_policy_count": "135",
+        "net.necp.ip_policy_count": "237",
+        "net.necp.session_count": "13",
+        "net.necp.client_fd_count": "128",
+        "net.necp.client_count": "260",
+        "net.necp.arena_count": "2",
+        "net.necp.nexus_flow_count": "3",
+        "net.necp.socket_flow_count": "157",
+        "net.necp.if_flow_count": "0",
+        "net.necp.observer_fd_count": "0",
+        "net.necp.observer_message_limit": "256",
+        "net.necp.sysctl_arena_count": "0",
+        "net.necp.drop_unentitled_level": "0",
+        "net.necp.pass_interpose": "1",
+        "net.necp.restrict_multicast": "1",
+        "net.necp.dedup_policies": "0",
+        "net.necp.necp_client_tracing_level": "0",
+        "net.necp.necp_client_tracing_pid": "0",
+        "net.necp.drop_management_level": "3",
+        "net.necp.drop_dest_debug": "0",
+        "net.necp.data_tracing_level": "0",
+        "net.necp.data_tracing_port": "0",
+        "net.necp.data_tracing_proto": "0",
+        "net.necp.data_tracing_pid": "0",
+        "net.necp.data_tracing_ifindex": "0",
+        "net.necp.data_tracing_match_all": "0",
+        "net.necp.data_tracing_session_order": "0",
+        "net.necp.data_tracing_policy_order": "0",
+        "net.ipsec.verify_interface_creation": "0",
+        "net.ipsec.max_pending_input": "512",
+        "net.ipsec.ring_size": "64",
+        "net.ipsec.tx_fsw_ring_size": "64",
+        "net.ipsec.rx_fsw_ring_size": "128",
+        "net.ipsec.debug": "0",
+        "net.utun.max_pending_input": "512",
+        "net.utun.ring_size": "64",
+        "net.utun.tx_fsw_ring_size": "64",
+        "net.utun.rx_fsw_ring_size": "128",
+        "net.stats.debug": "0",
+        "net.stats.debug_pid": "0",
+        "net.stats.sendspace": "2048",
+        "net.stats.recvspace": "8192",
+        "net.route.verbose": "0",
+        "net.filter_state": "application-firewall",
+        "net.ndrv_multi_max_count": "1024",
+        "net.statistics_privcheck": "0",
+        "net.alf.loglevel": "55",
+        "net.alf.perm": "2",
+        "net.alf.defaultaction": "1",
+        "net.alf.mqcount": "0"
+      }
+    },
+    "counters": {
+      "network": {
+        "interfaces": {
+          "lo0": {
+            "rx": {
+              "bytes": "1079866",
+              "packets": "0",
+              "errors": "1848327555",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "1848327555",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "gif0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "stf0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en5": {
+            "rx": {
+              "bytes": "8564177",
+              "packets": "51243",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "23705855",
+              "packets": "50530",
+              "errors": "2714",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "ap1": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en0": {
+            "rx": {
+              "bytes": "2731589319",
+              "packets": "2580551",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "578258985",
+              "packets": "1220607",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "awdl0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "13748",
+              "packets": "71",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "llw0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en2": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en3": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en1": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "en4": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "bridge0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "utun0": {
+            "rx": {
+              "bytes": "1",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "80",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "3",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "utun1": {
+            "rx": {
+              "bytes": "71",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "12998",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "utun2": {
+            "rx": {
+              "bytes": "69",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "12858",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          },
+          "utun3": {
+            "rx": {
+              "bytes": "70",
+              "packets": "0",
+              "errors": "0",
+              "drop": 0,
+              "overrun": 0,
+              "frame": 0,
+              "compressed": 0,
+              "multicast": 0
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "12918",
+              "drop": 0,
+              "overrun": 0,
+              "collisions": "0",
+              "carrier": 0,
+              "compressed": 0
+            }
+          }
+        }
+      }
+    },
+    "ipaddress": "192.168.1.4",
+    "macaddress": "3c:22:fb:75:66:b5",
+    "ip6address": "fe80::1",
+    "os": "darwin",
+    "os_version": "23.5.0",
+    "platform_version": "14.5",
+    "platform_build": "23F79",
+    "platform": "mac_os_x",
+    "platform_family": "mac_os_x",
+    "uptime_seconds": 255407,
+    "uptime": "2 days 22 hours 56 minutes 47 seconds",
+    "dmi": {
+
+    },
+    "hardware": {
+      "activation_lock_status": "activation_lock_disabled",
+      "boot_rom_version": "2022.100.22.0.0 (iBridge: 21.16.5077.0.0,0)",
+      "cpu_type": "6-Core Intel Core i7",
+      "current_processor_speed": "2.6 GHz",
+      "l2_cache_core": "256 KB",
+      "l3_cache": "12 MB",
+      "machine_model": "MacBookPro16,1",
+      "machine_name": "MacBook Pro",
+      "number_processors": 6,
+      "os_loader_version": "580~2215",
+      "packages": 1,
+      "physical_memory": "16 GB",
+      "platform_UUID": "17A2A3A8-A874-55CE-B473-F2DB6582E09A",
+      "platform_cpu_htt": "htt_enabled",
+      "provisioning_UDID": "17A2A3A8-A874-55CE-B473-F2DB6582E09A",
+      "serial_number": "C02CP1YZMD6M",
+      "operating_system": "macOS",
+      "operating_system_version": "14.5",
+      "build_version": "23F79",
+      "architecture": "x86_64",
+      "storage": [
+        {
+          "name": "Untitled 2 - Data",
+          "bsd_name": "disk1s1",
+          "capacity": 499963174912
+        },
+        {
+          "name": "Untitled 2",
+          "bsd_name": "disk1s4",
+          "capacity": 499963174912
+        },
+        {
+          "name": "Untitled 2",
+          "bsd_name": "disk1s4s1",
+          "capacity": 499963174912
+        }
+      ],
+      "battery": {
+        "current_capacity": null,
+        "max_capacity": 6752,
+        "fully_charged": false,
+        "is_charging": false,
+        "charge_cycle_count": 937,
+        "health": "Check Battery",
+        "serial": "D860173A6XJK7LNBE",
+        "remaining": 0
+      }
+    },
+    "cpu": {
+      "cores": 6,
+      "total": 12,
+      "mhz": 2600,
+      "real": 1,
+      "vendor_id": "GenuineIntel",
+      "model_name": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+      "family": 6,
+      "model": 158,
+      "stepping": 10,
+      "flags": [
+        "fpu",
+        "vme",
+        "de",
+        "pse",
+        "tsc",
+        "msr",
+        "pae",
+        "mce",
+        "cx8",
+        "apic",
+        "sep",
+        "mtrr",
+        "pge",
+        "mca",
+        "cmov",
+        "pat",
+        "pse36",
+        "clfsh",
+        "ds",
+        "acpi",
+        "mmx",
+        "fxsr",
+        "sse",
+        "sse2",
+        "ss",
+        "htt",
+        "tm",
+        "pbe",
+        "sse3",
+        "pclmulqdq",
+        "dtes64",
+        "mon",
+        "dscpl",
+        "vmx",
+        "est",
+        "tm2",
+        "ssse3",
+        "fma",
+        "cx16",
+        "tpr",
+        "pdcm",
+        "sse4.1",
+        "sse4.2",
+        "x2apic",
+        "movbe",
+        "popcnt",
+        "aes",
+        "pcid",
+        "xsave",
+        "osxsave",
+        "seglim64",
+        "tsctmr",
+        "avx1.0",
+        "rdrand",
+        "f16c"
+      ]
+    },
+    "virtualization": {
+      "systems": {
+        "docker": "host"
+      },
+      "system": "docker",
+      "role": "host"
+    },
+    "languages": {
+      "c": {
+        "gcc": {
+          "description": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)",
+          "version": "14.0.3",
+          "target": "x86_64-apple-darwin23.5.0",
+          "thread_model": "posix"
+        }
+      },
+      "perl": {
+        "version": "5.34.1",
+        "archname": "darwin-thread-multi-2level"
+      },
+      "ruby": {
+        "platform": "x86_64-darwin20",
+        "version": "3.1.2",
+        "release_date": "2022-04-12",
+        "target": "x86_64-apple-darwin20",
+        "target_cpu": "x86_64",
+        "target_vendor": "apple",
+        "target_os": "darwin20",
+        "host": "x86_64-apple-darwin20",
+        "host_cpu": "x86_64",
+        "host_os": "darwin20",
+        "host_vendor": "apple",
+        "bin_dir": "/opt/chef-workstation/embedded/bin",
+        "ruby_bin": "/opt/chef-workstation/embedded/bin/ruby",
+        "gem_bin": "/opt/chef-workstation/embedded/bin/gem",
+        "gems_dir": "/opt/chef-workstation/embedded/lib/ruby/gems/3.1.0"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "18.5.0",
+        "chef_root": "/opt/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/chef-18.5.0/lib",
+        "chef_effortless": null
+      },
+      "ohai": {
+        "version": "18.1.18",
+        "ohai_root": "/opt/chef-workstation/embedded/lib/ruby/gems/3.1.0/gems/ohai-18.1.18/lib/ohai"
+      }
+    },
+    "hostname": "abhishek",
+    "machinename": "abhishek.sharma1",
+    "fqdn": null,
+    "domain": null,
+    "cloud": null,
+    "command": {
+      "ps": "ps -ef"
+    },
+    "docker": {
+      "version_string": "26.0.0",
+      "version": "26.0.0",
+      "runtimes": {
+        "io.containerd.runc.v2": {
+          "path": "runc",
+          "status": {
+            "org.opencontainers.runtime-spec.features": "{\"ociVersionMin\":\"1.0.0\",\"ociVersionMax\":\"1.0.2-dev\",\"hooks\":[\"prestart\",\"createRuntime\",\"createContainer\",\"startContainer\",\"poststart\",\"poststop\"],\"mountOptions\":[\"acl\",\"async\",\"atime\",\"bind\",\"defaults\",\"dev\",\"diratime\",\"dirsync\",\"exec\",\"iversion\",\"lazytime\",\"loud\",\"mand\",\"noacl\",\"noatime\",\"nodev\",\"nodiratime\",\"noexec\",\"noiversion\",\"nolazytime\",\"nomand\",\"norelatime\",\"nostrictatime\",\"nosuid\",\"nosymfollow\",\"private\",\"ratime\",\"rbind\",\"rdev\",\"rdiratime\",\"relatime\",\"remount\",\"rexec\",\"rnoatime\",\"rnodev\",\"rnodiratime\",\"rnoexec\",\"rnorelatime\",\"rnostrictatime\",\"rnosuid\",\"rnosymfollow\",\"ro\",\"rprivate\",\"rrelatime\",\"rro\",\"rrw\",\"rshared\",\"rslave\",\"rstrictatime\",\"rsuid\",\"rsymfollow\",\"runbindable\",\"rw\",\"shared\",\"silent\",\"slave\",\"strictatime\",\"suid\",\"symfollow\",\"sync\",\"tmpcopyup\",\"unbindable\"],\"linux\":{\"namespaces\":[\"cgroup\",\"ipc\",\"mount\",\"network\",\"pid\",\"user\",\"uts\"],\"capabilities\":[\"CAP_CHOWN\",\"CAP_DAC_OVERRIDE\",\"CAP_DAC_READ_SEARCH\",\"CAP_FOWNER\",\"CAP_FSETID\",\"CAP_KILL\",\"CAP_SETGID\",\"CAP_SETUID\",\"CAP_SETPCAP\",\"CAP_LINUX_IMMUTABLE\",\"CAP_NET_BIND_SERVICE\",\"CAP_NET_BROADCAST\",\"CAP_NET_ADMIN\",\"CAP_NET_RAW\",\"CAP_IPC_LOCK\",\"CAP_IPC_OWNER\",\"CAP_SYS_MODULE\",\"CAP_SYS_RAWIO\",\"CAP_SYS_CHROOT\",\"CAP_SYS_PTRACE\",\"CAP_SYS_PACCT\",\"CAP_SYS_ADMIN\",\"CAP_SYS_BOOT\",\"CAP_SYS_NICE\",\"CAP_SYS_RESOURCE\",\"CAP_SYS_TIME\",\"CAP_SYS_TTY_CONFIG\",\"CAP_MKNOD\",\"CAP_LEASE\",\"CAP_AUDIT_WRITE\",\"CAP_AUDIT_CONTROL\",\"CAP_SETFCAP\",\"CAP_MAC_OVERRIDE\",\"CAP_MAC_ADMIN\",\"CAP_SYSLOG\",\"CAP_WAKE_ALARM\",\"CAP_BLOCK_SUSPEND\",\"CAP_AUDIT_READ\",\"CAP_PERFMON\",\"CAP_BPF\",\"CAP_CHECKPOINT_RESTORE\"],\"cgroup\":{\"v1\":true,\"v2\":true,\"systemd\":true,\"systemdUser\":true},\"seccomp\":{\"enabled\":true,\"actions\":[\"SCMP_ACT_ALLOW\",\"SCMP_ACT_ERRNO\",\"SCMP_ACT_KILL\",\"SCMP_ACT_KILL_PROCESS\",\"SCMP_ACT_KILL_THREAD\",\"SCMP_ACT_LOG\",\"SCMP_ACT_NOTIFY\",\"SCMP_ACT_TRACE\",\"SCMP_ACT_TRAP\"],\"operators\":[\"SCMP_CMP_EQ\",\"SCMP_CMP_GE\",\"SCMP_CMP_GT\",\"SCMP_CMP_LE\",\"SCMP_CMP_LT\",\"SCMP_CMP_MASKED_EQ\",\"SCMP_CMP_NE\"],\"archs\":[\"SCMP_ARCH_AARCH64\",\"SCMP_ARCH_ARM\",\"SCMP_ARCH_MIPS\",\"SCMP_ARCH_MIPS64\",\"SCMP_ARCH_MIPS64N32\",\"SCMP_ARCH_MIPSEL\",\"SCMP_ARCH_MIPSEL64\",\"SCMP_ARCH_MIPSEL64N32\",\"SCMP_ARCH_PPC\",\"SCMP_ARCH_PPC64\",\"SCMP_ARCH_PPC64LE\",\"SCMP_ARCH_RISCV64\",\"SCMP_ARCH_S390\",\"SCMP_ARCH_S390X\",\"SCMP_ARCH_X32\",\"SCMP_ARCH_X86\",\"SCMP_ARCH_X86_64\"]},\"apparmor\":{\"enabled\":true},\"selinux\":{\"enabled\":true}},\"annotations\":{\"io.github.seccomp.libseccomp.version\":\"2.5.4\",\"org.opencontainers.runc.checkpoint.enabled\":\"true\",\"org.opencontainers.runc.commit\":\"v1.1.12-0-g51d5e94\",\"org.opencontainers.runc.version\":\"1.1.12\"}}"
+          }
+        },
+        "runc": {
+          "path": "runc",
+          "status": {
+            "org.opencontainers.runtime-spec.features": "{\"ociVersionMin\":\"1.0.0\",\"ociVersionMax\":\"1.0.2-dev\",\"hooks\":[\"prestart\",\"createRuntime\",\"createContainer\",\"startContainer\",\"poststart\",\"poststop\"],\"mountOptions\":[\"acl\",\"async\",\"atime\",\"bind\",\"defaults\",\"dev\",\"diratime\",\"dirsync\",\"exec\",\"iversion\",\"lazytime\",\"loud\",\"mand\",\"noacl\",\"noatime\",\"nodev\",\"nodiratime\",\"noexec\",\"noiversion\",\"nolazytime\",\"nomand\",\"norelatime\",\"nostrictatime\",\"nosuid\",\"nosymfollow\",\"private\",\"ratime\",\"rbind\",\"rdev\",\"rdiratime\",\"relatime\",\"remount\",\"rexec\",\"rnoatime\",\"rnodev\",\"rnodiratime\",\"rnoexec\",\"rnorelatime\",\"rnostrictatime\",\"rnosuid\",\"rnosymfollow\",\"ro\",\"rprivate\",\"rrelatime\",\"rro\",\"rrw\",\"rshared\",\"rslave\",\"rstrictatime\",\"rsuid\",\"rsymfollow\",\"runbindable\",\"rw\",\"shared\",\"silent\",\"slave\",\"strictatime\",\"suid\",\"symfollow\",\"sync\",\"tmpcopyup\",\"unbindable\"],\"linux\":{\"namespaces\":[\"cgroup\",\"ipc\",\"mount\",\"network\",\"pid\",\"user\",\"uts\"],\"capabilities\":[\"CAP_CHOWN\",\"CAP_DAC_OVERRIDE\",\"CAP_DAC_READ_SEARCH\",\"CAP_FOWNER\",\"CAP_FSETID\",\"CAP_KILL\",\"CAP_SETGID\",\"CAP_SETUID\",\"CAP_SETPCAP\",\"CAP_LINUX_IMMUTABLE\",\"CAP_NET_BIND_SERVICE\",\"CAP_NET_BROADCAST\",\"CAP_NET_ADMIN\",\"CAP_NET_RAW\",\"CAP_IPC_LOCK\",\"CAP_IPC_OWNER\",\"CAP_SYS_MODULE\",\"CAP_SYS_RAWIO\",\"CAP_SYS_CHROOT\",\"CAP_SYS_PTRACE\",\"CAP_SYS_PACCT\",\"CAP_SYS_ADMIN\",\"CAP_SYS_BOOT\",\"CAP_SYS_NICE\",\"CAP_SYS_RESOURCE\",\"CAP_SYS_TIME\",\"CAP_SYS_TTY_CONFIG\",\"CAP_MKNOD\",\"CAP_LEASE\",\"CAP_AUDIT_WRITE\",\"CAP_AUDIT_CONTROL\",\"CAP_SETFCAP\",\"CAP_MAC_OVERRIDE\",\"CAP_MAC_ADMIN\",\"CAP_SYSLOG\",\"CAP_WAKE_ALARM\",\"CAP_BLOCK_SUSPEND\",\"CAP_AUDIT_READ\",\"CAP_PERFMON\",\"CAP_BPF\",\"CAP_CHECKPOINT_RESTORE\"],\"cgroup\":{\"v1\":true,\"v2\":true,\"systemd\":true,\"systemdUser\":true},\"seccomp\":{\"enabled\":true,\"actions\":[\"SCMP_ACT_ALLOW\",\"SCMP_ACT_ERRNO\",\"SCMP_ACT_KILL\",\"SCMP_ACT_KILL_PROCESS\",\"SCMP_ACT_KILL_THREAD\",\"SCMP_ACT_LOG\",\"SCMP_ACT_NOTIFY\",\"SCMP_ACT_TRACE\",\"SCMP_ACT_TRAP\"],\"operators\":[\"SCMP_CMP_EQ\",\"SCMP_CMP_GE\",\"SCMP_CMP_GT\",\"SCMP_CMP_LE\",\"SCMP_CMP_LT\",\"SCMP_CMP_MASKED_EQ\",\"SCMP_CMP_NE\"],\"archs\":[\"SCMP_ARCH_AARCH64\",\"SCMP_ARCH_ARM\",\"SCMP_ARCH_MIPS\",\"SCMP_ARCH_MIPS64\",\"SCMP_ARCH_MIPS64N32\",\"SCMP_ARCH_MIPSEL\",\"SCMP_ARCH_MIPSEL64\",\"SCMP_ARCH_MIPSEL64N32\",\"SCMP_ARCH_PPC\",\"SCMP_ARCH_PPC64\",\"SCMP_ARCH_PPC64LE\",\"SCMP_ARCH_RISCV64\",\"SCMP_ARCH_S390\",\"SCMP_ARCH_S390X\",\"SCMP_ARCH_X32\",\"SCMP_ARCH_X86\",\"SCMP_ARCH_X86_64\"]},\"apparmor\":{\"enabled\":true},\"selinux\":{\"enabled\":true}},\"annotations\":{\"io.github.seccomp.libseccomp.version\":\"2.5.4\",\"org.opencontainers.runc.checkpoint.enabled\":\"true\",\"org.opencontainers.runc.commit\":\"v1.1.12-0-g51d5e94\",\"org.opencontainers.runc.version\":\"1.1.12\"}}"
+          }
+        }
+      },
+      "root_dir": "/var/lib/docker",
+      "containers": {
+        "total": 1,
+        "running": 1,
+        "paused": 0,
+        "stopped": 0
+      },
+      "plugins": {
+        "Volume": [
+          "local"
+        ],
+        "Network": [
+          "bridge",
+          "host",
+          "ipvlan",
+          "macvlan",
+          "null",
+          "overlay"
+        ],
+        "Authorization": null,
+        "Log": [
+          "awslogs",
+          "fluentd",
+          "gcplogs",
+          "gelf",
+          "journald",
+          "json-file",
+          "local",
+          "splunk",
+          "syslog"
+        ]
+      },
+      "networking": {
+        "ipv4_forwarding": true,
+        "bridge_nf_iptables": true,
+        "bridge_nf_ipv6_iptables": true
+      },
+      "swarm": {
+        "NodeID": "",
+        "NodeAddr": "",
+        "LocalNodeState": "inactive",
+        "ControlAvailable": false,
+        "Error": "",
+        "RemoteManagers": null
+      }
+    },
+    "filesystem": {
+      "by_device": {
+        "/dev/disk1s4s1": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404167",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706127",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "read-only",
+            "journaled"
+          ],
+          "mounts": [
+            "/"
+          ]
+        },
+        "devfs": {
+          "block_size": 512,
+          "kb_size": "187",
+          "kb_used": "187",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "inodes_used": "650",
+          "inodes_available": "0",
+          "total_inodes": "650",
+          "inodes_percent_used": "100%",
+          "fs_type": "devfs",
+          "mount_options": [
+            "local",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/dev"
+          ]
+        },
+        "/dev/disk1s2": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "3931148",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "1435",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891303395",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/System/Volumes/Preboot"
+          ]
+        },
+        "/dev/disk1s6": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "4194324",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "4",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891301964",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "noexec",
+            "journaled",
+            "noatime",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/System/Volumes/VM"
+          ]
+        },
+        "/dev/disk1s5": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "66100",
+          "kb_available": "389130196",
+          "percent_used": "1%",
+          "inodes_used": "660",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891302620",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/System/Volumes/Update"
+          ]
+        },
+        "/dev/disk1s1": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "76547880",
+          "kb_available": "389130196",
+          "percent_used": "17%",
+          "inodes_used": "786743",
+          "inodes_available": "3891301960",
+          "total_inodes": "3892088703",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse",
+            "root data"
+          ],
+          "mounts": [
+            "/System/Volumes/Data"
+          ]
+        },
+        "/dev/disk1s4": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404475",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706435",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/System/Volumes/Update/mnt1"
+          ]
+        },
+        "/Users/abhisheksharma/Downloads/Visual Studio Code.app": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "73457584",
+          "kb_available": "396414796",
+          "percent_used": "16%",
+          "inodes_used": "706428",
+          "inodes_available": "3964147960",
+          "total_inodes": "3964854388",
+          "inodes_percent_used": "0%",
+          "fs_type": "nullfs",
+          "mount_options": [
+            "local",
+            "nodev",
+            "nosuid",
+            "read-only",
+            "nobrowse",
+            "mounted by abhisheksharma"
+          ],
+          "mounts": [
+            "/private/var/folders/16/5t1x6jn553sbdm_vvx5z_50h0000gp/T/AppTranslocation/220C66CE-6365-417C-816C-0330F60D27A3"
+          ]
+        },
+        "": {
+          "fs_type": "autofs",
+          "mount_options": [
+            "automounted",
+            "nobrowse"
+          ],
+          "mounts": [
+            "/System/Volumes/Data/home"
+          ]
+        }
+      },
+      "by_mountpoint": {
+        "/": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404167",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706127",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "read-only",
+            "journaled"
+          ],
+          "devices": [
+            "/dev/disk1s4s1"
+          ]
+        },
+        "/dev": {
+          "block_size": 512,
+          "kb_size": "187",
+          "kb_used": "187",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "inodes_used": "650",
+          "inodes_available": "0",
+          "total_inodes": "650",
+          "inodes_percent_used": "100%",
+          "fs_type": "devfs",
+          "mount_options": [
+            "local",
+            "nobrowse"
+          ],
+          "devices": [
+            "devfs"
+          ]
+        },
+        "/System/Volumes/Preboot": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "3931148",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "1435",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891303395",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "devices": [
+            "/dev/disk1s2"
+          ]
+        },
+        "/System/Volumes/VM": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "4194324",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "4",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891301964",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "noexec",
+            "journaled",
+            "noatime",
+            "nobrowse"
+          ],
+          "devices": [
+            "/dev/disk1s6"
+          ]
+        },
+        "/System/Volumes/Update": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "66100",
+          "kb_available": "389130196",
+          "percent_used": "1%",
+          "inodes_used": "660",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891302620",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "devices": [
+            "/dev/disk1s5"
+          ]
+        },
+        "/System/Volumes/Data": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "76547880",
+          "kb_available": "389130196",
+          "percent_used": "17%",
+          "inodes_used": "786743",
+          "inodes_available": "3891301960",
+          "total_inodes": "3892088703",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse",
+            "root data"
+          ],
+          "devices": [
+            "/dev/disk1s1"
+          ]
+        },
+        "/System/Volumes/Update/mnt1": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404475",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706435",
+          "inodes_percent_used": "0%",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "journaled",
+            "nobrowse"
+          ],
+          "devices": [
+            "/dev/disk1s4"
+          ]
+        },
+        "/private/var/folders/16/5t1x6jn553sbdm_vvx5z_50h0000gp/T/AppTranslocation/220C66CE-6365-417C-816C-0330F60D27A3": {
+          "block_size": 512,
+          "kb_size": "488245288",
+          "kb_used": "73457584",
+          "kb_available": "396414796",
+          "percent_used": "16%",
+          "inodes_used": "706428",
+          "inodes_available": "3964147960",
+          "total_inodes": "3964854388",
+          "inodes_percent_used": "0%",
+          "fs_type": "nullfs",
+          "mount_options": [
+            "local",
+            "nodev",
+            "nosuid",
+            "read-only",
+            "nobrowse",
+            "mounted by abhisheksharma"
+          ],
+          "devices": [
+            "/Users/abhisheksharma/Downloads/Visual Studio Code.app"
+          ]
+        },
+        "/System/Volumes/Data/home": {
+          "fs_type": "autofs",
+          "mount_options": [
+            "automounted",
+            "nobrowse"
+          ],
+          "devices": [
+
+          ]
+        }
+      },
+      "by_pair": {
+        "/dev/disk1s4s1,/": {
+          "block_size": 512,
+          "device": "/dev/disk1s4s1",
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404167",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706127",
+          "inodes_percent_used": "0%",
+          "mount": "/",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "read-only",
+            "journaled"
+          ]
+        },
+        "devfs,/dev": {
+          "block_size": 512,
+          "device": "devfs",
+          "kb_size": "187",
+          "kb_used": "187",
+          "kb_available": "0",
+          "percent_used": "100%",
+          "inodes_used": "650",
+          "inodes_available": "0",
+          "total_inodes": "650",
+          "inodes_percent_used": "100%",
+          "mount": "/dev",
+          "fs_type": "devfs",
+          "mount_options": [
+            "local",
+            "nobrowse"
+          ]
+        },
+        "/dev/disk1s2,/System/Volumes/Preboot": {
+          "block_size": 512,
+          "device": "/dev/disk1s2",
+          "kb_size": "488245288",
+          "kb_used": "3931148",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "1435",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891303395",
+          "inodes_percent_used": "0%",
+          "mount": "/System/Volumes/Preboot",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ]
+        },
+        "/dev/disk1s6,/System/Volumes/VM": {
+          "block_size": 512,
+          "device": "/dev/disk1s6",
+          "kb_size": "488245288",
+          "kb_used": "4194324",
+          "kb_available": "389130196",
+          "percent_used": "2%",
+          "inodes_used": "4",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891301964",
+          "inodes_percent_used": "0%",
+          "mount": "/System/Volumes/VM",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "noexec",
+            "journaled",
+            "noatime",
+            "nobrowse"
+          ]
+        },
+        "/dev/disk1s5,/System/Volumes/Update": {
+          "block_size": 512,
+          "device": "/dev/disk1s5",
+          "kb_size": "488245288",
+          "kb_used": "66100",
+          "kb_available": "389130196",
+          "percent_used": "1%",
+          "inodes_used": "660",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891302620",
+          "inodes_percent_used": "0%",
+          "mount": "/System/Volumes/Update",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse"
+          ]
+        },
+        "/dev/disk1s1,/System/Volumes/Data": {
+          "block_size": 512,
+          "device": "/dev/disk1s1",
+          "kb_size": "488245288",
+          "kb_used": "76547880",
+          "kb_available": "389130196",
+          "percent_used": "17%",
+          "inodes_used": "786743",
+          "inodes_available": "3891301960",
+          "total_inodes": "3892088703",
+          "inodes_percent_used": "0%",
+          "mount": "/System/Volumes/Data",
+          "fs_type": "apfs",
+          "mount_options": [
+            "local",
+            "journaled",
+            "nobrowse",
+            "root data"
+          ]
+        },
+        "/dev/disk1s4,/System/Volumes/Update/mnt1": {
+          "block_size": 512,
+          "device": "/dev/disk1s4",
+          "kb_size": "488245288",
+          "kb_used": "13007772",
+          "kb_available": "389130196",
+          "percent_used": "4%",
+          "inodes_used": "404475",
+          "inodes_available": "3891301960",
+          "total_inodes": "3891706435",
+          "inodes_percent_used": "0%",
+          "mount": "/System/Volumes/Update/mnt1",
+          "fs_type": "apfs",
+          "mount_options": [
+            "sealed",
+            "local",
+            "journaled",
+            "nobrowse"
+          ]
+        },
+        "/Users/abhisheksharma/Downloads/Visual Studio Code.app,/private/var/folders/16/5t1x6jn553sbdm_vvx5z_50h0000gp/T/AppTranslocation/220C66CE-6365-417C-816C-0330F60D27A3": {
+          "block_size": 512,
+          "device": "/Users/abhisheksharma/Downloads/Visual Studio Code.app",
+          "kb_size": "488245288",
+          "kb_used": "73457584",
+          "kb_available": "396414796",
+          "percent_used": "16%",
+          "inodes_used": "706428",
+          "inodes_available": "3964147960",
+          "total_inodes": "3964854388",
+          "inodes_percent_used": "0%",
+          "mount": "/private/var/folders/16/5t1x6jn553sbdm_vvx5z_50h0000gp/T/AppTranslocation/220C66CE-6365-417C-816C-0330F60D27A3",
+          "fs_type": "nullfs",
+          "mount_options": [
+            "local",
+            "nodev",
+            "nosuid",
+            "read-only",
+            "nobrowse",
+            "mounted by abhisheksharma"
+          ]
+        },
+        "map auto_home,/System/Volumes/Data/home": {
+          "mount": "/System/Volumes/Data/home",
+          "fs_type": "autofs",
+          "mount_options": [
+            "automounted",
+            "nobrowse"
+          ]
+        }
+      }
+    },
+    "habitat": {
+      "version": "1.6.1041/20240411142502",
+      "packages": [
+        "https://www.chef.io/end-user-license-agreement"
+      ]
+    },
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "ohai_time": 1729844461.0873642,
+    "packages": {
+      "App Store": {
+        "version": "3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Automator": {
+        "version": "2.10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Books": {
+        "version": "6.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Calculator": {
+        "version": "10.16",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Calendar": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Chess": {
+        "version": "3.18",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Clock": {
+        "version": "1.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Contacts": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "UniversalAccessControl": {
+        "version": "7.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Universal Control": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "UnmountAssistantAgent": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "UserNotificationCenter": {
+        "version": "82",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "VoiceOver": {
+        "version": "10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Wallpaper": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Watch Face Help": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "WiFiAgent": {
+        "version": "17.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "WidgetKit Simulator": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "WindowManager": {
+        "version": "175.106",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "WindowManagerShowDesktopEducation": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "WorkoutAlert-Mac": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "iCloud+": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "iCloud": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "loginwindow": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "rcd": {
+        "version": "361",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "screencaptureui": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Wireless Diagnostics": {
+        "version": "11.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "iOS App Installer": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Finder": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirDrop": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Computer": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Network": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Recents": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "iCloud Drive": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Help Viewer": {
+        "version": "7.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Tips": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Photo Booth": {
+        "version": "13.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Photos": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Podcasts": {
+        "version": "1.1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Preview": {
+        "version": "11.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "QuickTime Player": {
+        "version": "10.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Reminders": {
+        "version": "7.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Shortcuts": {
+        "version": "7.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Siri": {
+        "version": "3305.2.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Stickies": {
+        "version": "10.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Stocks": {
+        "version": "6.2.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "System Settings": {
+        "version": "15.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TV": {
+        "version": "1.4.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TextEdit": {
+        "version": "1.19",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Time Machine": {
+        "version": "1.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Activity Monitor": {
+        "version": "10.14",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirPort Utility": {
+        "version": "6.3.9",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Audio MIDI Setup": {
+        "version": "3.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Bluetooth File Exchange": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Boot Camp Assistant": {
+        "version": "6.1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ColorSync Utility": {
+        "version": "12.0.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Console": {
+        "version": "1.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Digital Colour Meter": {
+        "version": "5.22",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Disk Utility": {
+        "version": "22.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Grapher": {
+        "version": "2.7",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Keychain Access": {
+        "version": "11.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Migration Assistant": {
+        "version": "14.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Print Centre": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Screen Sharing": {
+        "version": "4.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Screenshot": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Script Editor": {
+        "version": "2.11",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "System Information": {
+        "version": "11.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Terminal": {
+        "version": "2.14",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "VoiceOver Utility": {
+        "version": "10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Voice Memos": {
+        "version": "2.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Weather": {
+        "version": "4.2.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "About This Mac": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Archive Utility": {
+        "version": "10.15",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "DVD Player": {
+        "version": "6.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Desk View": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Directory Utility": {
+        "version": "6.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Expansion Slot Utility": {
+        "version": "2.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Feedback Assistant": {
+        "version": "5.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Folder Actions Setup": {
+        "version": "1.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Ticket Viewer": {
+        "version": "4.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AOSUIPrefPaneLauncher": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AVB Configuration": {
+        "version": "1220.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Add Printer": {
+        "version": "607",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AddressBookUrlForwarder": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirPlayUIAgent": {
+        "version": "2.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirPort Base Station Agent": {
+        "version": "2.2.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AppleScript Utility": {
+        "version": "1.1.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AskToMessagesHost": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Automator Application Stub": {
+        "version": "1.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "unknown"
+      },
+      "Automator Installer": {
+        "version": "2.10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Batteries": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Bluetooth Setup Assistant": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "BluetoothUIServer": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "BluetoothUIService": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CalendarFileHandler": {
+        "version": "8.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Captive Network Assistant": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Certificate Assistant": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Control Centre": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ControlStrip": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CoreLocationAgent": {
+        "version": "2890.16.16",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CoreServicesUIAgent": {
+        "version": "369",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Coverage Details": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Database Events": {
+        "version": "1.0.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Diagnostics Reporter": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "DiscHelper": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "DiskImageMounter": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Dock": {
+        "version": "1.8",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Dwell Control": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Erase Assistant": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "EscrowSecurityAlert": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Family": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "FolderActionsDispatcher": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Game Center": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "IOUIAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Image Events": {
+        "version": "1.1.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Install Command Line Developer Tools": {
+        "version": "2408",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Install in Progress": {
+        "version": "3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Installer Progress": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Installer": {
+        "version": "6.2.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "JavaLauncher": {
+        "version": "321",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "KeyboardAccessAgent": {
+        "version": "10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "KeyboardSetupAssistant": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Keychain Circle Notification": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Language Chooser": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "MTLReplayer": {
+        "version": "270.13.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ManagedClient": {
+        "version": "16.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "MediaMLPluginApp": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Memory Slot Utility": {
+        "version": "1.5.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Music Recognition": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "NetAuthAgent": {
+        "version": "6.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Notification Centre": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "NowPlayingTouchUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "OBEXAgent": {
+        "version": "9.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ODSAgent": {
+        "version": "1.9",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "OSDUIHelper": {
+        "version": "1.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PIPAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Paired Devices": {
+        "version": "5.5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Pass Viewer": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PeopleMessageService": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PowerChime": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PreviewShell": {
+        "version": "15.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Pro Display Calibrator": {
+        "version": "2.0.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Problem Reporter": {
+        "version": "10.13",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Profile Installer": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "RapportUIAgent": {
+        "version": "5.5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "RegisterPluginIMApp": {
+        "version": "25",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ARDAgent": {
+        "version": "3.9.8",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Remote Desktop Message": {
+        "version": "3.9.8",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SSMenuAgent": {
+        "version": "3.9.8",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Rosetta 2 Updater": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Screen Time": {
+        "version": "3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ScreenSaverEngine": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Script Menu": {
+        "version": "1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ScriptMonitor": {
+        "version": "1.0.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Setup Assistant": {
+        "version": "10.10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ShortcutDroplet": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Shortcuts Events": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ShortcutsActions": {
+        "version": null,
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Software Update": {
+        "version": "6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SpacesTouchBarAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Spotlight": {
+        "version": "3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "StageManagerOnboarding": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "System Events": {
+        "version": "1.3.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SystemUIServer": {
+        "version": "1.7",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TextInputMenuAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TextInputSwitcher": {
+        "version": "1.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ThermalTrap": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TMHelperAgent": {
+        "version": "13",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "UIKitSystem": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "50onPaletteServer": {
+        "version": "1.1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AinuIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Assistive Control": {
+        "version": "2.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CharacterPalette": {
+        "version": "2.0.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Dictation": {
+        "version": "6.1.82.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "EmojiFunctionRowIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "JapaneseIM-KanaTyping": {
+        "version": "6.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "JapaneseIM-RomajiTyping": {
+        "version": "6.3",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "KoreanIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PluginIM": {
+        "version": "25",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "PressAndHold": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SCIM": {
+        "version": "104",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TCIM": {
+        "version": "104",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TYIM": {
+        "version": "104",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TamilIM": {
+        "version": "1.6",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TrackpadIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "TransliterationIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "VietnameseIM": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AppSSOAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "KerberosMenuExtra": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ClassroomStudentMenuExtra": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Display Calibrator": {
+        "version": "4.18",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "STMUIHelper": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "IMTransferAgent": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Voice Control Guide": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "universalAccessAuthWarn": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "UASharedPasteboardProgressUI": {
+        "version": "54.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "FindMyMacMessenger": {
+        "version": "4.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "nbagent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AutoFillPanelService": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AutomationModeUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Conflict Resolver": {
+        "version": "8.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "BackgroundTaskManagementAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CIMFindInputCodeTool": {
+        "version": "104",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "LinkedNotesUIService": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Live Captions": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "LiveSpeech": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "identityservicesd": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "IDSRemoteURLConnectionAgent": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "imagent": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "iCloudUserNotificationsd": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AOSAlertManager": {
+        "version": "1.07",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AOSHeartbeat": {
+        "version": "1.07",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AOSPushRelay": {
+        "version": "1.07",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "storeuid": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ParentalControls": {
+        "version": "4.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ScreenReaderUIServer": {
+        "version": "10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "VoiceOver Quickstart": {
+        "version": "10",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "sociallayerd": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Speech Downloader": {
+        "version": "9.0.68",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SpeechRecognitionServer": {
+        "version": "9.0.68",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "DiskImages UI Agent": {
+        "version": "654.120.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AMSEngagementViewService": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "FollowUpUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AXVisualSupportAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "DFRHUD": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "IMAutomaticHistoryDeletionAgent": {
+        "version": "10.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "syncuid": {
+        "version": "8.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AskPermissionUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AquaAppearanceHelper": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Calibration Assistant": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SoftwareUpdateNotificationManager": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "eaptlstrust": {
+        "version": "13.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AccessibilityVisualsAgent": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "qlmanage": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "quicklookd": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "FontRegistryUIAgent": {
+        "version": "81.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "System Speech": {
+        "version": "9.2.22",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Quick Look Simulator": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "QuickLookUIHelper": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Build Web Page": {
+        "version": "10.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "MakePDF": {
+        "version": "10.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirScanScanner": {
+        "version": "18",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SyncServer": {
+        "version": "8.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "CinematicFramingOnboardingUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ContinuityCaptureOnboardingUI": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AddressBookSync": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ABAssistantService": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AddressBookManager": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AddressBookSourceSync": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Wish": {
+        "version": "8.5.9",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SmartCard Pairing": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AppleSpell": {
+        "version": "2.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "ChineseTextConverterService": {
+        "version": "2.1",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "OpenSpell": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "SpeechService": {
+        "version": "9.2.22",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Summary Service": {
+        "version": "2.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Dictionary": {
+        "version": "2.3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "FaceTime": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Find My": {
+        "version": "4.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Font Book": {
+        "version": "11.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Freeform": {
+        "version": "2.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Home": {
+        "version": "8.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Image Capture": {
+        "version": "8.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Launchpad": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Mail": {
+        "version": "16.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Maps": {
+        "version": "3.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Messages": {
+        "version": "14.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Mission Control": {
+        "version": "1.2",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Music": {
+        "version": "1.4.5",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "News": {
+        "version": "9.4",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Notes": {
+        "version": "4.11",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "group.is.workflow": {
+        "version": null,
+        "lastmodified": "2024-01-24T11:55:54+00:00",
+        "source": "unknown"
+      },
+      "fmon2": {
+        "version": "1.0",
+        "lastmodified": "2022-09-21T21:29:56+00:00",
+        "source": "identified_developer"
+      },
+      "FortiClient": {
+        "version": "6.4.9.1460",
+        "lastmodified": "2022-09-21T21:32:47+00:00",
+        "source": "identified_developer"
+      },
+      "FortiClientUninstaller": {
+        "version": "1.0",
+        "lastmodified": "2022-09-21T21:35:37+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft Teams": {
+        "version": "24256.2503.3156.9924",
+        "lastmodified": "2024-10-22T03:11:45+00:00",
+        "source": "identified_developer"
+      },
+      "ARMH": {
+        "version": "9.1.1.1",
+        "lastmodified": "2024-10-22T09:15:49+00:00",
+        "source": "identified_developer"
+      },
+      "ARCON PAM": {
+        "version": "6.3.0.3",
+        "lastmodified": "2024-10-22T09:15:49+00:00",
+        "source": "identified_developer"
+      },
+      "XQuartz": {
+        "version": "2.8.5",
+        "lastmodified": "2024-10-22T09:15:48+00:00",
+        "source": "identified_developer"
+      },
+      "Chef Workstation App": {
+        "version": "0.2.191",
+        "lastmodified": "2024-05-05T22:54:52+00:00",
+        "source": "identified_developer"
+      },
+      "NativeMessagingHost": {
+        "version": "5.0",
+        "lastmodified": "2024-10-05T19:27:50+00:00",
+        "source": "identified_developer"
+      },
+      "Canon Office Printer Utility": {
+        "version": "10.19.9",
+        "lastmodified": "2024-01-24T13:18:51+00:00",
+        "source": "identified_developer"
+      },
+      "autoSetupTool": {
+        "version": "10.19.9",
+        "lastmodified": "2024-01-24T13:18:51+00:00",
+        "source": "identified_developer"
+      },
+      "Maccy": {
+        "version": "1.0.0",
+        "lastmodified": "2024-07-08T19:51:14+00:00",
+        "source": "identified_developer"
+      },
+      "Visual Studio Code": {
+        "version": "1.91.1",
+        "lastmodified": "2024-07-10T05:17:06+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft AutoUpdate": {
+        "version": "4.76",
+        "lastmodified": "2024-10-17T10:14:30+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft Outlook": {
+        "version": "16.90.1",
+        "lastmodified": "2024-10-22T23:10:45+00:00",
+        "source": "identified_developer"
+      },
+      "EndpointProtectorClient": {
+        "version": "3.0.3.1009",
+        "lastmodified": "2024-10-10T06:50:28+00:00",
+        "source": "identified_developer"
+      },
+      "EppNotifier": {
+        "version": "3.0.3.1009",
+        "lastmodified": "2024-10-10T06:50:28+00:00",
+        "source": "identified_developer"
+      },
+      "Acrobat Update Helper": {
+        "version": "1 . 2 . 2",
+        "lastmodified": "2024-02-26T07:28:53+00:00",
+        "source": "identified_developer"
+      },
+      "Adobe Acrobat Updater": {
+        "version": "1 . 2 . 2",
+        "lastmodified": "2024-02-26T07:40:32+00:00",
+        "source": "unknown"
+      },
+      "com.apple.ctcategories": {
+        "version": null,
+        "lastmodified": "2024-03-22T01:06:33+00:00",
+        "source": "unknown"
+      },
+      "Recursive File Processing Droplet": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "unknown"
+      },
+      "Droplet with Settable Properties": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "unknown"
+      },
+      "Recursive Image File Processing Droplet": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "unknown"
+      },
+      "Cocoa-AppleScript Applet": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "unknown"
+      },
+      "MRT": {
+        "version": "1.93",
+        "lastmodified": "2024-05-21T22:41:59+00:00",
+        "source": "apple"
+      },
+      "Microsoft Word": {
+        "version": "16.90",
+        "lastmodified": "2024-10-16T10:02:17+00:00",
+        "source": "identified_developer"
+      },
+      "GitLab": {
+        "version": "",
+        "lastmodified": "2024-09-12T01:00:34+00:00",
+        "source": "identified_developer"
+      },
+      "NewApp": {
+        "version": null,
+        "lastmodified": "2024-05-07T12:04:04+00:00",
+        "source": "unknown"
+      },
+      "Python": {
+        "version": "3.9.6",
+        "lastmodified": "2024-05-07T10:06:22+00:00",
+        "source": "apple"
+      },
+      "WebKitPluginHost": {
+        "version": null,
+        "lastmodified": "2024-05-07T10:06:22+00:00",
+        "source": "unknown"
+      },
+      "Company Portal": {
+        "version": "5.2404.0",
+        "lastmodified": "2024-05-10T18:53:12+00:00",
+        "source": "identified_developer"
+      },
+      "XProtect": {
+        "version": "145",
+        "lastmodified": "2024-09-05T05:39:39+00:00",
+        "source": "apple"
+      },
+      "Adobe Acrobat Reader": {
+        "version": "24.003.20180",
+        "lastmodified": "2024-10-05T19:27:50+00:00",
+        "source": "identified_developer"
+      },
+      "AppleMobileDeviceHelper": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "MobileDeviceUpdater": {
+        "version": "1.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AppleMobileSync": {
+        "version": "5.0",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "AirScanLegacyDiscovery": {
+        "version": "607",
+        "lastmodified": "2024-05-07T07:01:44+00:00",
+        "source": "apple"
+      },
+      "Docker": {
+        "version": "4.29.0",
+        "lastmodified": "2024-04-05T15:28:27+00:00",
+        "source": "identified_developer"
+      },
+      "Google Chrome": {
+        "version": "130.0.6723.70",
+        "lastmodified": "2024-10-23T20:39:47+00:00",
+        "source": "unknown"
+      },
+      "Microsoft OneNote": {
+        "version": "16.90",
+        "lastmodified": "2024-10-16T06:40:27+00:00",
+        "source": "identified_developer"
+      },
+      "Self Service": {
+        "version": "11.10.1",
+        "lastmodified": "2024-10-17T14:17:53+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft Excel": {
+        "version": "16.90",
+        "lastmodified": "2024-10-17T10:17:46+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft PowerPoint": {
+        "version": "16.90",
+        "lastmodified": "2024-10-16T07:23:06+00:00",
+        "source": "identified_developer"
+      },
+      "jamfHelper": {
+        "version": "11.10.1",
+        "lastmodified": "2024-10-11T15:11:41+00:00",
+        "source": "identified_developer"
+      },
+      "Management Action": {
+        "version": "11.10.1",
+        "lastmodified": "2024-10-11T15:11:30+00:00",
+        "source": "identified_developer"
+      },
+      "Jamf": {
+        "version": "11.10.1",
+        "lastmodified": "2024-10-11T15:33:30+00:00",
+        "source": "identified_developer"
+      },
+      "com.microsoft.dlp": {
+        "version": "1.24082.105",
+        "lastmodified": "2024-10-15T13:23:23+00:00",
+        "source": "identified_developer"
+      },
+      "Microsoft Defender": {
+        "version": "101.24082.0009",
+        "lastmodified": "2024-10-15T13:23:23+00:00",
+        "source": "identified_developer"
+      },
+      "GoogleUpdater": {
+        "version": "131.0.6776.0",
+        "lastmodified": "2024-10-16T02:50:36+00:00",
+        "source": "identified_developer"
+      },
+      "OneDrive": {
+        "version": "24.196.0929",
+        "lastmodified": "2024-10-22T06:03:30+00:00",
+        "source": "identified_developer"
+      },
+      "notify": {
+        "version": "2.0.1",
+        "lastmodified": "2024-10-23T20:39:47+00:00",
+        "source": "identified_developer"
+      }
+    },
+    "root_group": "wheel",
+    "shard_seed": 94796808,
+    "shells": [
+      "/bin/bash",
+      "/bin/csh",
+      "/bin/dash",
+      "/bin/ksh",
+      "/bin/sh",
+      "/bin/tcsh",
+      "/bin/zsh"
+    ],
+    "time": {
+      "timezone": "IST"
+    },
+    "chef_guid": "33a3b408-2206-403b-a070-34ca830b1dcf",
+    "name": "abhishek.sharma1",
+    "chef_environment": "_default",
+    "recipes": [
+      "docker_challenge",
+      "docker_challenge::default"
+    ],
+    "expanded_run_list": [
+      "docker_challenge::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "docker_challenge": {
+        "version": "0.1.0"
+      },
+      "docker": {
+        "version": "7.7.8"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[docker_challenge]"
+  ]
+}
